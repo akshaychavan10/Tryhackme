@@ -1,0 +1,318 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.10.130.189
++ Target Hostname:    10.10.130.189
++ Target Port:        80
++ Start Time:         2021-10-11 06:52:09 (GMT-4)
+---------------------------------------------------------------------------
++ Server: No banner retrieved
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ OSVDB-10107: /author.asp: May be FactoSystem CMS, which could include SQL injection problems that could not be tested remotely.
++ OSVDB-27071: /phpimageview.php?pic=javascript:alert(8754): PHP Image View 1.0 is vulnerable to Cross Site Scripting (XSS).  http://www.cert.org/advisories/CA-2000-02.html.
++ OSVDB-2767: /openautoclassifieds/friendmail.php?listing=<script>alert(document.domain);</script>: OpenAutoClassifieds 1.0 is vulnerable to a XSS attack
++ /modules.php?op=modload&name=FAQ&file=index&myfaq=yes&id_cat=1&categories=%3Cimg%20src=javascript:alert(9456);%3E&parent_id=0: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS). http://www.cert.org/advisories/CA-2000-02.html.
++ /modules.php?letter=%22%3E%3Cimg%20src=javascript:alert(document.cookie);%3E&op=modload&name=Members_List&file=index: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS). http://www.cert.org/advisories/CA-2000-02.html.
++ OSVDB-4598: /members.asp?SF=%22;}alert(223344);function%20x(){v%20=%22: Web Wiz Forums ver. 7.01 and below is vulnerable to Cross Site Scripting (XSS). http://www.cert.org/advisories/CA-2000-02.html.
++ OSVDB-4015: /jigsaw/: Jigsaw server may be installed. Versions lower than 2.2.1 are vulnerable to Cross Site Scripting (XSS) in the error page.
++ OSVDB-376: /jk-status/contextAdmin/contextAdmin.html: Tomcat may be configured to let attackers read arbitrary files. Restrict access to /admin.
++ OSVDB-376: /admin/contextAdmin/contextAdmin.html: Tomcat may be configured to let attackers read arbitrary files. Restrict access to /admin.
++ OSVDB-376: /host-manager/contextAdmin/contextAdmin.html: Tomcat may be configured to let attackers read arbitrary files. Restrict access to /admin.
++ OSVDB-568: /blahb.ida: Reveals physical path. To fix: Preferences -> Home directory -> Application & check 'Check if file exists' for the ISAPI mappings. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/MS01-033.
++ OSVDB-568: /blahb.idq: Reveals physical path. To fix: Preferences -> Home directory -> Application & check 'Check if file exists' for the ISAPI mappings. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2001/MS01-033.
++ OSVDB-2117: /BACLIENT: IBM Tivoli default file found.
++ OSVDB-578: /level/16/exec/-///pwd: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16/exec/-///show/configuration: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16/exec/: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16/exec//show/access-lists: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16/level/16/exec//show/configuration: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16/level/16/exec//show/interfaces: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16/level/16/exec//show/interfaces/status: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16/level/16/exec//show/version: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16/level/16/exec//show/running-config/interface/FastEthernet: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/16/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/17/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/18/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/19/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/20/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/21/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/22/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/23/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/24/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/25/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/26/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/27/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/28/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/29/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/30/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/31/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/32/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/33/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/34/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/35/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/36/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/37/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/38/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/39/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/40/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/41/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/42/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/43/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/44/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/45/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/46/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/47/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/48/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/49/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/50/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/51/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/52/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/53/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/54/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/55/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/56/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/57/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/58/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/59/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/60/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/61/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/62/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/63/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/64/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/65/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/66/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/67/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/68/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/69/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/70/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/71/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/72/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/73/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/74/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/75/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/76/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/77/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/78/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/79/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/80/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/81/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/82/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/83/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/84/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/85/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/86/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/87/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/88/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/89/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/90/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/91/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/92/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/93/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/94/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/95/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/96/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/97/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/98/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-578: /level/99/exec//show: CISCO HTTP service allows remote execution of commands
++ OSVDB-18810: /users.lst: LocalWEB2000 users.lst passwords found
++ OSVDB-13405: /WS_FTP.LOG: WS_FTP.LOG file was found. It may contain sensitive information.
++ OSVDB-3715: /nsn/env.bas: Novell web server shows the server environment and is vulnerable to cross-site scripting
++ OSVDB-3722: /lcgi/lcgitest.nlm: Novell web server shows the server environment
++ OSVDB-13404: /com/: Novell web server allows directory listing
++ OSVDB-13402: /com/novell/: Novell web server allows directory listing
++ OSVDB-13403: /com/novell/webaccess: Novell web server allows directory listing
++ OSVDB-4804: //admin/admin.shtml: Axis network camera may allow admin bypass by using double-slashes before URLs.
++ OSVDB-4808: /axis-cgi/buffer/command.cgi: Axis WebCam 2400 may allow overwriting or creating files on the system. See http://www.websec.org/adv/axis2400.txt.html for details.
++ OSVDB-4806: /support/messages: Axis WebCam allows retrieval of messages file (/var/log/messages). See http://www.websec.org/adv/axis2400.txt.html
++ OSVDB-228: /upload.cgi+: The upload.cgi allows attackers to upload arbitrary files to the server.
++ OSVDB-561: /server-status: This reveals Apache information. Comment out appropriate line in the Apache conf file or restrict access to allowed sources.
++ OSVDB-1264: /publisher/: Netscape Enterprise Server with Web Publishing can allow attackers to edit web pages and/or list arbitrary directories via Java applet. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0237.
++ OSVDB-134: /cgi-bin/pfdisplay.cgi?../../../../../../etc/passwd: Comes with IRIX 6.2-6.4; allows to run arbitrary commands
++ OSVDB-155: /counter/1/n/n/0/3/5/0/a/123.gif: The Roxen Counter may eat up excessive CPU time with image requests.
++ OSVDB-2: /iissamples/exair/search/search.asp: Scripts within the Exair package on IIS 4 can be used for a DoS against the server. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0449. BID-193.
++ OSVDB-3093: /XMBforum/member.php: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /x_stat_admin.php: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /yabbse/Reminder.php: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /yabbse/Sources/Packages.php: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /zentrack/index.php: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /_head.php: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /ows-bin/oaskill.exe?abcde.exe: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /ows-bin/oasnetconf.exe?-l%20-s%20BlahBlah: This might be interesting... has been seen in web logs from an unknown scanner.
++ OSVDB-3093: /database/: Databases? Really??
++ OSVDB-3093: /.wwwacl: Contains authorization information
++ OSVDB-3093: /.www_acl: Contains authorization information
++ OSVDB-3093: /.htpasswd: Contains authorization information
++ OSVDB-3093: /.access: Contains authorization information
++ OSVDB-3093: /.addressbook: PINE addressbook, may store sensitive e-mail address contact information and notes
++ OSVDB-3093: /.bashrc: User home dir was found with a shell rc file. This may reveal file and path information.
++ OSVDB-3093: /.forward: User home dir was found with a mail forward file. May reveal where the user's mail is being forwarded to.
++ OSVDB-3093: /.history: A user's home directory may be set to the web root, the shell history was retrieved. This should not be accessible via the web.
++ OSVDB-3093: /.htaccess: Contains configuration and/or authorization information
++ OSVDB-3233: /_private/: FrontPage directory found.
++ OSVDB-3233: /_private/orders.htm: Default FrontPage file found.
++ OSVDB-3233: /_private/orders.txt: Default FrontPage file found.
++ OSVDB-3233: /_private/register.htm: Default FrontPage file found.
++ OSVDB-3233: /_private/register.txt: Default FrontPage file found.
++ OSVDB-3233: /_private/registrations.txt: Default FrontPage file found.
++ OSVDB-3233: /_private/_vti_cnf/: FrontPage directory found.
++ OSVDB-3233: /_vti_bin/: FrontPage directory found.
++ OSVDB-3233: /_vti_bin/admin.pl: Default FrontPage CGI found.
++ OSVDB-3233: /_vti_bin/cfgwiz.exe: Default FrontPage CGI found.
++ OSVDB-3233: /_vti_bin/CGImail.exe: Default FrontPage CGI found.
++ OSVDB-3233: /_vti_bin/contents.htm: Default FrontPage CGI found.
++ OSVDB-3233: /_vti_bin/fpadmin.htm: Default FrontPage CGI found.
++ OSVDB-3233: /_vti_bin/fpremadm.exe: Default FrontPage CGI found.
++ OSVDB-3233: /_vti_bin/fpsrvadm.exe: Default FrontPage CGI found.
++ OSVDB-3233: /_vti_bin/_vti_cnf/: FrontPage directory found.
++ OSVDB-3233: /_vti_cnf/_vti_cnf/: FrontPage directory found.
++ OSVDB-3233: /_vti_log/_vti_cnf/: FrontPage directory found.
++ OSVDB-3233: /_vti_pvt/administrators.pwd: Default FrontPage file found, may be a password file.
++ OSVDB-3233: /_vti_pvt/authors.pwd: Default FrontPage file found, may be a password file.
++ OSVDB-3233: /_vti_pvt/service.pwd: Default FrontPage file found, may be a password file.
++ OSVDB-3233: /_vti_pvt/users.pwd: Default FrontPage file found, may be a password file.
++ OSVDB-3233: /help/contents.htm: Default Netscape manual found. All default pages should be removed.
++ OSVDB-3233: /help/home.html: Default Netscape manual found. All default pages should be removed.
++ OSVDB-3233: /manual/ag/esperfrm.htm: Default Netscape manual found. All default pages should be removed.
++ OSVDB-3233: /nethome/: Netscape Enterprise Server default doc/manual directory. Reveals server path at bottom of page.
++ OSVDB-3233: /com/novell/gwmonitor/help/en/default.htm: Netware gateway monitor access documentation found. All default documentation should be removed from web servers.
++ OSVDB-3233: /com/novell/webaccess/help/en/default.htm: Netware web access documentation found. All default documentation should be removed from web servers.
++ OSVDB-3233: /com/novell/webpublisher/help/en/default.htm: Netware web publisher documentation found. All default documentation should be removed from web servers.
++ OSVDB-3233: /servlet/AdminServlet: Netware Web Search Server (adminservlet) found. All default code should be removed from web servers.
++ OSVDB-3233: /servlet/gwmonitor: Netware Gateway monitor found. All default code should be removed from web servers.
++ OSVDB-3233: /servlet/PrintServlet: Novell Netware default servlet found. All default code should be removed from the system.
++ OSVDB-3233: /servlet/SearchServlet: Novell Netware default servlet found. All default code should be removed from the system.
++ OSVDB-3233: /servlet/ServletManager: Netware Java Servlet Gateway found. Default user ID is servlet, default password is manager. All default code should be removed from Internet servers.
++ OSVDB-3233: /servlet/sq1cdsn: Novell Netware default servlet found. All default code should be removed from the system.
++ OSVDB-3233: /servlet/sqlcdsn: Netware SQL connector found. All default code should be removed from web servers.
++ OSVDB-3233: /servlet/webacc: Netware Enterprise and/or GroupWise web access found. All default code should be removed from Internet servers.
++ OSVDB-3233: /servlet/webpub: Netware Web Publisher found. All default code should be removed from web servers.
++ OSVDB-3233: /WebSphereSamples: Netware Webshere sample applications found. All default code should be removed from web servers.
++ OSVDB-3233: /index.html.ca: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.cz.iso8859-2: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.de: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.dk: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.ee: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.el: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.en: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.es: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.et: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.fr: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.he.iso8859-8: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.hr.iso8859-2: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.it: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.ja.iso2022-jp: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.kr.iso2022-kr: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.ltz.utf8: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.lu.utf8: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.nl: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.nn: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.no: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.po.iso8859-2: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.pt: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.pt-br: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.ru.cp-1251: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.ru.cp866: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.ru.iso-ru: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.ru.koi8-r: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.ru.utf8: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.se: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.tw: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.tw.Big5: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /index.html.var: Apache default foreign language file found. All default files should be removed from the web server as they may give an attacker additional system information.
++ OSVDB-3233: /iissamples/sdk/asp/docs/codebrw2.asp: This is a default IIS script/file that should be removed. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0739. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-3233: /iissamples/sdk/asp/docs/codebrws.asp: This is a default IIS script/file that should be removed. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0739. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-3233: /iissamples/sdk/asp/docs/Winmsdp.exe: This is a default IIS script/file that should be removed. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0738. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-3233: /a/: May be Kebi Web Mail administration menu.
++ OSVDB-3233: /basilix/: BasiliX webmail application. Default mysql database name is 'BASILIX' with password 'bsxpass'
++ OSVDB-3233: /interchange/: Interchange chat is installed. Look for a high-numbered port like 20xx to find it running.
++ OSVDB-3282: /uploader.php: This script may allow arbitrary files to be uploaded to the remote server.
++ OSVDB-3284: /iissamples/sdk/asp/docs/Winmsdp.exe?Source=/IISSAMPLES/%c0%ae%c0%ae/default.asp: IIS may be vulnerable to source code viewing via the example Winmsdp.exe file. Remove all default files from the web root. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0738. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-3286: /conspass.chl+: Abyss allows hidden/protected files to be served if a + is added to the request. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1081
++ OSVDB-3286: /consport.chl+: Abyss allows hidden/protected files to be served if a + is added to the request. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1081
++ OSVDB-3286: /general.chl+: Abyss allows hidden/protected files to be served if a + is added to the request. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1081
++ OSVDB-3286: /srvstatus.chl+: Abyss allows hidden/protected files to be served if a + is added to the request. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-1081
++ OSVDB-3396: /mlog.html: Remote file read vulnerability 1999-0068
++ OSVDB-3396: /mlog.phtml: Remote file read vulnerability 1999-0068
++ OSVDB-3396: /php/mlog.html: Remote file read vulnerability 1999-0346
++ OSVDB-3396: /php/mlog.phtml: Remote file read vulnerability 1999-0346
++ OSVDB-3411: /soapConfig.xml: Oracle 9iAS configuration file found - see bugtraq #4290.
++ OSVDB-3423: /XSQLConfig.xml: Oracle 9iAS configuration file found - see bugtraq #4290.
++ OSVDB-3489: /surf/scwebusers: SurfControl SuperScout Web Reports Server user and password file is available. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2002-0705.
++ OSVDB-3501: /_private/form_results.htm: This file may contain information submitted by other web users via forms. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-1052.
++ OSVDB-3501: /_private/form_results.html: This file may contain information submitted by other web users via forms. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-1052.
++ OSVDB-3501: /_private/form_results.txt: This file may contain information submitted by other web users via forms. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-1052.
++ OSVDB-3512: /scripts/tools/getdrvrs.exe: MS Jet database engine can be used to make DSNs, useful with an ODBC exploit and the RDS exploit (with msadcs.dll) which mail allow command execution. RFP9901 (http://www.wiretrip.net/rfp/p/doc.asp/i2/d3.htm).
++ OSVDB-3591: /project/index.php?m=projects&user_cookie=1: dotProject 0.2.1.5 may allow admin login bypass by adding the user_cookie=1 to the URL.
++ OSVDB-379: /site/eg/source.asp: This ASP (installed with Apache::ASP) allows attackers to upload files to the server. Upgrade to 1.95 or higher. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0628.
++ OSVDB-4: /iissamples/exair/search/advsearch.asp: Scripts within the Exair package on IIS 4 can be used for a DoS against the server. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0449. BID-193.
++ OSVDB-4013: /isqlplus: Oracle iSQL*Plus is installed. This may be vulnerable to a buffer overflow in the user ID field. http://www.ngssoftware.com/advisories/ora-isqlplus.txt
++ OSVDB-4161: /data/member_log.txt: Teekai's forum full 1.2 member's log can be retrieved remotely.
++ OSVDB-4161: /data/userlog/log.txt: Teekai's Tracking Online 1.0 log can be retrieved remotely.
++ OSVDB-4161: /userlog.php: Teekai's Tracking Online 1.0 log can be retrieved remotely.
++ OSVDB-4171: /ASP/cart/database/metacart.mdb: MetaCart2 is an ASP shopping cart. The database of customers is available via the web.
++ OSVDB-4171: /database/metacart.mdb: MetaCart2 is an ASP shopping cart. The database of customers is available via the web.
++ OSVDB-4171: /mcartfree/database/metacart.mdb: MetaCart2 is an ASP shopping cart. The database of customers is available via the web.
++ OSVDB-4171: /metacart/database/metacart.mdb: MetaCart2 is an ASP shopping cart. The database of customers is available via the web.
++ OSVDB-4171: /shop/database/metacart.mdb: MetaCart2 is an ASP shopping cart. The database of customers is available via the web.
++ OSVDB-4171: /shoponline/fpdb/shop.mdb: MetaCart2 is an ASP shopping cart. The database of customers is available via the web.
++ OSVDB-4171: /shopping/database/metacart.mdb: MetaCart2 is an ASP shopping cart. The database of customers is available via the web.
++ OSVDB-4237: /ban.bak: Bannermatic versions 1-3 reveal sensitive information from unprotected files. These files should be protected.
++ OSVDB-4237: /ban.dat: Bannermatic versions 1-3 reveal sensitive information from unprotected files. These files should be protected.
++ OSVDB-4237: /ban.log: Bannermatic versions 1-3 reveal sensitive information from unprotected files. These files should be protected.
++ OSVDB-4237: /banmat.pwd: Bannermatic versions 1-3 reveal sensitive information from unprotected files. These files should be protected.
++ OSVDB-4238: /admin/adminproc.asp: Xpede administration page may be available. The /admin directory should be protected.
++ OSVDB-4239: /admin/datasource.asp: Xpede page reveals SQL account name. The /admin directory should be protected.
++ OSVDB-4240: /utils/sprc.asp: Xpede page may allow SQL injection.
++ OSVDB-4314: /texis.exe/?-dump: Texis installation may reveal sensitive information.
++ OSVDB-4314: /texis.exe/?-version: Texis installation may reveal sensitive information.
++ OSVDB-4360: /acart2_0/acart2_0.mdb: Alan Ward A-Cart 2.0 allows remote user to read customer database file which may contain usernames, passwords, credit cards and more.
++ OSVDB-4361: /acart2_0/admin/category.asp: Alan Ward A-Cart 2.0 is vulnerable to an XSS attack which may cause the administrator to delete database information.
++ OSVDB-474: /Sites/Knowledge/Membership/Inspired/ViewCode.asp: The default ViewCode.asp can allow an attacker to read any file on the machine. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0737. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-474: /Sites/Knowledge/Membership/Inspiredtutorial/ViewCode.asp: The default ViewCode.asp can allow an attacker to read any file on the machine. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0737. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-474: /Sites/Samples/Knowledge/Membership/Inspired/ViewCode.asp: The default ViewCode.asp can allow an attacker to read any file on the machine. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0737. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-474: /Sites/Samples/Knowledge/Membership/Inspiredtutorial/ViewCode.asp: The default ViewCode.asp can allow an attacker to read any file on the machine. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0737. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-474: /Sites/Samples/Knowledge/Push/ViewCode.asp: The default ViewCode.asp can allow an attacker to read any file on the machine. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0737. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-474: /Sites/Samples/Knowledge/Search/ViewCode.asp: The default ViewCode.asp can allow an attacker to read any file on the machine. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0737. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-474: /SiteServer/Publishing/ViewCode.asp: The default ViewCode.asp can allow an attacker to read any file on the machine. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0737. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-17671: /siteserver/publishing/viewcode.asp?source=/default.asp: May be able to view source code using Site Server vulnerability.
++ OSVDB-4908: /securelogin/1,2345,A,00.html: Vignette Story Server v4.1, 6, may disclose sensitive information via a buffer overflow.
++ OSVDB-5092: /config.inc: DotBr 0.1 configuration file includes usernames and passwords.
++ OSVDB-5095: /sysuser/docmgr/ieedit.stm?url=../: Sambar default file may allow directory listings.
++ OSVDB-5096: /sysuser/docmgr/iecreate.stm?template=../: Sambar default file may allow directory listings.
++ OSVDB-539: /catinfo: May be vulnerable to a buffer overflow. Request '/catinfo?' and add on 2048 of garbage to test.
++ OSVDB-5407: /soap/servlet/soaprouter: Oracle 9iAS SOAP components allow anonymous users to deploy applications by default.
++ OSVDB-5523: /MWS/HandleSearch.html?searchTarget=test&B1=Submit: MyWebServer 1.0.2 may be vulnerable to a buffer overflow (untested). Upgrade to a later version if 990b of searched data crashes the server.
++ OSVDB-562: /server-info: This gives a lot of Apache information. Comment out appropriate line in httpd.conf or restrict access to allowed hosts.
++ OSVDB-5709: /.nsconfig: Contains authorization information
++ OSVDB-583: /cgi-bin/%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%57%69%6E%64%6F%77%73%2Fping.exe%20127.0.0.1: Specially formatted strings allow command execution. Upgrade to version 1.15 or higher. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2000-0011.
++ OSVDB-596: /dc/auth_data/auth_user_file.txt: The DCShop installation allows credit card numbers to be viewed remotely. See dcscripts.com for fix information.
++ OSVDB-596: /dc/orders/orders.txt: The DCShop installation allows credit card numbers to be viewed remotely. See dcscripts.com for fix information.
++ OSVDB-596: /dcshop/auth_data/auth_user_file.txt: The DCShop installation allows credit card numbers to be viewed remotely. See dcscripts.com for fix information.
++ OSVDB-596: /dcshop/orders/orders.txt: The DCShop installation allows credit card numbers to be viewed remotely. See dcscripts.com for fix information.
++ OSVDB-6666: /cgi-bin/hpnst.exe?c=p+i=SrvSystemInfo.html: HP Instant TopTools GoAhead WebServer hpnst.exe may be vulnerable to a DoS.
++ OSVDB-6670: /applist.asp: Citrix server may allow remote users to view applications installed without authenticating.
++ OSVDB-6671: /launch.asp?NFuse_Application=LookOut&NFuse_MIMEExtension=.ica: Citrix server may reveal sensitive information by accessing the 'advanced' tab on hte login screen.
++ OSVDB-6672: /_layouts/alllibs.htm: Microsoft SharePoint Portal and Team Services vulnerable to NT or NTLM authentication bypass on Win2000 SP4 using IE 6.x. Bugtraq 03-11-19 post by arkanian@hacker.am
++ OSVDB-6672: /_layouts/settings.htm: Microsoft SharePoint Portal and Team Services vulnerable to NT or NTLM authentication bypass on Win2000 SP4 using IE 6.x. Bugtraq 03-11-19 post by arkanian@hacker.am
++ OSVDB-6672: /_layouts/userinfo.htm: Microsoft SharePoint Portal and Team Services vulnerable to NT or NTLM authentication bypass on Win2000 SP4 using IE 6.x. Bugtraq 03-11-19 post by arkanian@hacker.am
++ OSVDB-670: /stronghold-info: Redhat Stronghold from versions 2.3 up to 3.0 discloses sensitive information. This gives information on configuration. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0868.
++ OSVDB-670: /stronghold-status: Redhat Stronghold from versions 2.3 up to 3.0 discloses sensitive information. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2001-0868.
++ OSVDB-7: /iissamples/exair/howitworks/Code.asp: Scripts within the Exair package on IIS 4 can be used for a DoS against the server. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0449. BID-193.
++ OSVDB-7: /iissamples/exair/howitworks/Codebrw1.asp: This is a default IIS script/file which should be  removed, it may allow a DoS against the server. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0738. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0449. BID-193.
++ OSVDB-707: /globals.jsa: Oracle globals.jsa file
++ OSVDB-721: /..%252f..%252f..%252f..%252f..%252f../windows/repair/sam: BadBlue server is vulnerable to multiple remote exploits. See http://www.securiteam.com/exploits/5HP0M2A60G.html for more information.
++ OSVDB-721: /..%252f..%252f..%252f..%252f..%252f../winnt/repair/sam: BadBlue server is vulnerable to multiple remote exploits. See http://www.securiteam.com/exploits/5HP0M2A60G.html for more information.
++ OSVDB-721: /..%252f..%252f..%252f..%252f..%252f../winnt/repair/sam._: BadBlue server is vulnerable to multiple remote exploits. See http://www.securiteam.com/exploits/5HP0M2A60G.html for more information.
++ OSVDB-721: /..%255c..%255c..%255c..%255c..%255c../windows/repair/sam: BadBlue server is vulnerable to multiple remote exploits. See http://www.securiteam.com/exploits/5HP0M2A60G.html for more information.
++ OSVDB-721: /..%255c..%255c..%255c..%255c..%255c../winnt/repair/sam: BadBlue server is vulnerable to multiple remote exploits. See http://www.securiteam.com/exploits/5HP0M2A60G.html for more information.
++ OSVDB-721: /..%255c..%255c..%255c..%255c..%255c../winnt/repair/sam._: BadBlue server is vulnerable to multiple remote exploits. See http://www.securiteam.com/exploits/5HP0M2A60G.html for more information.
++ OSVDB-721: /..%2F..%2F..%2F..%2F..%2F../windows/repair/sam: BadBlue server is vulnerable to multiple remote exploits. See http://www.securiteam.com/exploits/5HP0M2A60G.html for more information.
++ OSVDB-721: /..%2F..%2F..%2F..%2F..%2F../winnt/repair/sam: BadBlue server is vulnerable to multiple remote exploits. See http://www.securiteam.com/exploits/5HP0M2A60G.html for more information.
++ OSVDB-721: /..%2F..%2F..%2F..%2F..%2F../winnt/repair/sam._: BadBlue server is vulnerable to multiple remote exploits. See http://www.securiteam.com/exploits/5HP0M2A60G.html for more information.
++ OSVDB-789: /iissamples/sdk/asp/docs/CodeBrws.asp?Source=/IISSAMPLES/%c0%ae%c0%ae/default.asp: IIS may be vulnerable to source code viewing via the example CodeBrws.asp file. Remove all default files from the web root. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0739. https://docs.microsoft.com/en-us/security-updates/securitybulletins/2099/MS99-013.
++ OSVDB-9624: /pass_done.php: PY-Membres 4.2 may allow users to execute a query which generates a list of usernames and passwords.
++ OSVDB-9624: /admin/admin.php?adminpy=1: PY-Membres 4.2 may allow administrator access.
++ OSVDB-3092: /README: README file found.

@@ -1,0 +1,30 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-11-12 00:27 EST
+Nmap scan report for 10.10.151.25
+Host is up (0.22s latency).
+
+PORT     STATE  SERVICE VERSION
+21/tcp   open   ftp?
+| fingerprint-strings: 
+|   RTSPRequest, SSLSessionReq: 
+|_    220 ProFTPD Server (ProFTPD) [::ffff:10.10.151.25]
+80/tcp   open   http    Apache/2.4.48 (Unix) OpenSSL/1.1.1k PHP/8.0.7 mod_perl/2.0.11 Perl/v5.32.1
+|_http-server-header: Apache/2.4.48 (Unix) OpenSSL/1.1.1k PHP/8.0.7 mod_perl/2.0.11 Perl/v5.32.1
+| http-title: Login
+|_Requested resource was login.html
+443/tcp  open   https   Apache/2.4.48 (Unix) OpenSSL/1.1.1k PHP/8.0.7 mod_perl/2.0.11 Perl/v5.32.1
+|_http-server-header: Apache/2.4.48 (Unix) OpenSSL/1.1.1k PHP/8.0.7 mod_perl/2.0.11 Perl/v5.32.1
+| ssl-cert: Subject: commonName=localhost/organizationName=Apache Friends/stateOrProvinceName=Berlin/countryName=DE
+| Not valid before: 2004-10-01T09:10:30
+|_Not valid after:  2010-09-30T09:10:30
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+7017/tcp closed grasp
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port21-TCP:V=7.91%I=7%D=11/12%Time=618DFB6B%P=x86_64-pc-linux-gnu%r(RTS
+SF:PRequest,34,"220\x20ProFTPD\x20Server\x20\(ProFTPD\)\x20\[::ffff:10\.10
+SF:\.151\.25\]\r\n")%r(SSLSessionReq,34,"220\x20ProFTPD\x20Server\x20\(Pro
+SF:FTPD\)\x20\[::ffff:10\.10\.151\.25\]\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 68.79 seconds

@@ -1,0 +1,25 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-11-13 00:50 EST
+Initiating Ping Scan at 00:50
+Scanning 10.10.66.164 [2 ports]
+Completed Ping Scan at 00:50, 0.45s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 00:50
+Completed Parallel DNS resolution of 1 host. at 00:50, 0.04s elapsed
+Initiating Connect Scan at 00:50
+Scanning 10.10.66.164 [8340 ports]
+Discovered open port 22/tcp on 10.10.66.164
+Discovered open port 80/tcp on 10.10.66.164
+Increasing send delay for 10.10.66.164 from 0 to 5 due to max_successful_tryno increase to 4
+Increasing send delay for 10.10.66.164 from 5 to 10 due to max_successful_tryno increase to 5
+Stats: 0:00:25 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 2.94% done; ETC: 01:04 (0:13:44 remaining)
+Stats: 0:00:25 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 2.98% done; ETC: 01:04 (0:13:35 remaining)
+Connect Scan Timing: About 6.90% done; ETC: 01:03 (0:12:22 remaining)
+Increasing send delay for 10.10.66.164 from 10 to 20 due to max_successful_tryno increase to 6
+Increasing send delay for 10.10.66.164 from 20 to 40 due to 16 out of 53 dropped probes since last increase.
+Connect Scan Timing: About 13.76% done; ETC: 01:03 (0:11:42 remaining)
+Connect Scan Timing: About 18.34% done; ETC: 01:03 (0:10:59 remaining)
+Connect Scan Timing: About 23.55% done; ETC: 01:03 (0:10:17 remaining)
+Connect Scan Timing: About 30.07% done; ETC: 01:03 (0:09:34 remaining)
+Discovered open port 8022/tcp on 10.10.66.164
+Connect Scan Timing: About 34.48% done; ETC: 01:03 (0:08:52 remaining)

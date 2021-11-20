@@ -1,0 +1,16 @@
+POST /classes/Login.php?f=login HTTP/1.1
+Host: contacttracer.thm
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 29
+Origin: http://contacttracer.thm
+Connection: close
+Referer: http://contacttracer.thm/admin/login.php
+Cookie: PHPSESSID=f5vm9f9gijum1s8saulpu7sjti
+
+username=admin&password=admin
+

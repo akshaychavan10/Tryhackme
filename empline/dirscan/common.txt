@@ -1,0 +1,16 @@
+# FFUF Report
+
+  Command line : `ffuf -u http://empline.thm/FUZZ -w /usr/share/wordlists/dirb/common.txt -of md -fc 404 -o dirscan/common.txt`
+  Time: 2021-09-22T05:04:54-04:00
+
+  | FUZZ | URL | Redirectlocation | Position | Status Code | Content Length | Content Words | Content Lines | Content Type | ResultFile |
+  | :- | :-- | :--------------- | :---- | :------- | :---------- | :------------- | :------------ | :--------- | :----------- |
+  |  | http://empline.thm/ |  | 1 | 200 | 14058 | 5495 | 288 | text/html |  |
+  | .hta | http://empline.thm/.hta |  | 11 | 403 | 276 | 20 | 10 | text/html; charset=iso-8859-1 |  |
+  | .htpasswd | http://empline.thm/.htpasswd |  | 13 | 403 | 276 | 20 | 10 | text/html; charset=iso-8859-1 |  |
+  | .htaccess | http://empline.thm/.htaccess |  | 12 | 403 | 276 | 20 | 10 | text/html; charset=iso-8859-1 |  |
+  | assets | http://empline.thm/assets | http://empline.thm/assets/ | 499 | 301 | 311 | 20 | 10 | text/html; charset=iso-8859-1 |  |
+  | index.html | http://empline.thm/index.html |  | 2020 | 200 | 14058 | 5495 | 288 | text/html |  |
+  | javascript | http://empline.thm/javascript | http://empline.thm/javascript/ | 2145 | 301 | 315 | 20 | 10 | text/html; charset=iso-8859-1 |  |
+  | server-status | http://empline.thm/server-status |  | 3588 | 403 | 276 | 20 | 10 | text/html; charset=iso-8859-1 |  |
+  

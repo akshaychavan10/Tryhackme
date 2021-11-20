@@ -1,0 +1,66 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-09-20 07:31 EDT
+Initiating Ping Scan at 07:31
+Scanning 10.10.242.240 [2 ports]
+Completed Ping Scan at 07:31, 0.17s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 07:31
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 1 undergoing Ping Scan
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Completed Parallel DNS resolution of 1 host. at 07:31, 6.67s elapsed
+Initiating Connect Scan at 07:31
+Scanning 10.10.242.240 [8340 ports]
+Discovered open port 3306/tcp on 10.10.242.240
+Discovered open port 80/tcp on 10.10.242.240
+Discovered open port 22/tcp on 10.10.242.240
+Increasing send delay for 10.10.242.240 from 0 to 5 due to 29 out of 96 dropped probes since last increase.
+Increasing send delay for 10.10.242.240 from 5 to 10 due to max_successful_tryno increase to 4
+Connect Scan Timing: About 10.56% done; ETC: 07:36 (0:04:23 remaining)
+Increasing send delay for 10.10.242.240 from 10 to 20 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.242.240 from 20 to 40 due to max_successful_tryno increase to 6
+Connect Scan Timing: About 15.70% done; ETC: 07:38 (0:05:27 remaining)
+Connect Scan Timing: About 17.57% done; ETC: 07:40 (0:07:07 remaining)
+Increasing send delay for 10.10.242.240 from 40 to 80 due to max_successful_tryno increase to 7
+Increasing send delay for 10.10.242.240 from 80 to 160 due to max_successful_tryno increase to 8
+Increasing send delay for 10.10.242.240 from 160 to 320 due to max_successful_tryno increase to 9
+Increasing send delay for 10.10.242.240 from 320 to 640 due to max_successful_tryno increase to 10
+Connect Scan Timing: About 18.68% done; ETC: 07:42 (0:08:47 remaining)
+Connect Scan Timing: About 19.12% done; ETC: 07:44 (0:10:39 remaining)
+Connect Scan Timing: About 19.51% done; ETC: 07:47 (0:12:26 remaining)
+Connect Scan Timing: About 19.79% done; ETC: 07:49 (0:14:15 remaining)
+Connect Scan Timing: About 20.17% done; ETC: 07:51 (0:15:54 remaining)
+Connect Scan Timing: About 20.43% done; ETC: 07:53 (0:17:35 remaining)
+Connect Scan Timing: About 20.98% done; ETC: 07:55 (0:18:54 remaining)
+Warning: 10.10.242.240 giving up on port because retransmission cap hit (10).
+Connect Scan Timing: About 21.20% done; ETC: 07:57 (0:20:30 remaining)
+Connect Scan Timing: About 21.51% done; ETC: 07:59 (0:21:57 remaining)
+Connect Scan Timing: About 22.07% done; ETC: 08:01 (0:23:22 remaining)
+Connect Scan Timing: About 22.68% done; ETC: 08:03 (0:24:56 remaining)
+Connect Scan Timing: About 23.28% done; ETC: 08:06 (0:26:35 remaining)
+Stats: 0:08:32 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 23.55% done; ETC: 08:07 (0:27:22 remaining)
+Connect Scan Timing: About 24.24% done; ETC: 08:10 (0:29:11 remaining)
+Connect Scan Timing: About 25.55% done; ETC: 08:13 (0:31:08 remaining)
+Connect Scan Timing: About 26.17% done; ETC: 08:16 (0:33:14 remaining)
+Connect Scan Timing: About 27.36% done; ETC: 08:20 (0:35:32 remaining)
+Connect Scan Timing: About 29.48% done; ETC: 08:25 (0:37:59 remaining)
+Stats: 0:27:38 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 41.16% done; ETC: 08:38 (0:39:22 remaining)
+Stats: 0:27:38 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 41.17% done; ETC: 08:38 (0:39:20 remaining)
+Stats: 0:27:39 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 41.17% done; ETC: 08:38 (0:39:22 remaining)
+Stats: 0:27:40 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 41.18% done; ETC: 08:38 (0:39:21 remaining)
+Stats: 0:27:42 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 41.23% done; ETC: 08:38 (0:39:20 remaining)
+Connect Scan Timing: About 49.89% done; ETC: 08:43 (0:35:57 remaining)
+Connect Scan Timing: About 56.33% done; ETC: 08:45 (0:32:22 remaining)
+Stats: 0:43:58 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 58.58% done; ETC: 08:46 (0:31:01 remaining)
+Connect Scan Timing: About 64.32% done; ETC: 08:48 (0:27:15 remaining)
+Stats: 0:51:50 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 67.12% done; ETC: 08:48 (0:25:21 remaining)
+Connect Scan Timing: About 72.60% done; ETC: 08:50 (0:21:28 remaining)
+Connect Scan Timing: About 77.90% done; ETC: 08:51 (0:17:32 remaining)
+Connect Scan Timing: About 83.20% done; ETC: 08:52 (0:13:33 remaining)
+Stats: 1:11:57 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 88.19% done; ETC: 08:53 (0:09:37 remaining)

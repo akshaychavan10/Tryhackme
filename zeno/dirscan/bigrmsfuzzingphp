@@ -1,0 +1,22 @@
+# FFUF Report
+
+  Command line : `ffuf -u http://10.10.180.155:12340/rms/FUZZ.php -w /usr/share/wordlists/dirb/big.txt -of md -o dirscan/bigrmsfuzzingphp`
+  Time: 2021-10-23T11:57:05-04:00
+
+  | FUZZ | URL | Redirectlocation | Position | Status Code | Content Length | Content Words | Content Lines | Content Type | ResultFile |
+  | :- | :-- | :--------------- | :---- | :------- | :---------- | :------------- | :------------ | :--------- | :----------- |
+  | .htaccess | http://10.10.180.155:12340/rms/.htaccess.php |  | 15 | 403 | 219 | 15 | 9 | text/html; charset=iso-8859-1 |  |
+  | .htpasswd | http://10.10.180.155:12340/rms/.htpasswd.php |  | 16 | 403 | 219 | 15 | 9 | text/html; charset=iso-8859-1 |  |
+  | aboutus | http://10.10.180.155:12340/rms/aboutus.php |  | 1593 | 200 | 2212 | 242 | 44 | text/html; charset=UTF-8 |  |
+  | access-denied | http://10.10.180.155:12340/rms/access-denied.php |  | 1627 | 200 | 1640 | 147 | 36 | text/html; charset=UTF-8 |  |
+  | auth | http://10.10.180.155:12340/rms/auth.php | access-denied.php | 2838 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | cart | http://10.10.180.155:12340/rms/cart.php | access-denied.php | 4107 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | contactus | http://10.10.180.155:12340/rms/contactus.php |  | 5201 | 200 | 1986 | 161 | 51 | text/html; charset=UTF-8 |  |
+  | footer | http://10.10.180.155:12340/rms/footer.php |  | 7808 | 200 | 415 | 50 | 6 | text/html; charset=UTF-8 |  |
+  | gallery | http://10.10.180.155:12340/rms/gallery.php |  | 8203 | 200 | 1371 | 109 | 34 | text/html; charset=UTF-8 |  |
+  | inbox | http://10.10.180.155:12340/rms/inbox.php | access-denied.php | 9531 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | index | http://10.10.180.155:12340/rms/index.php |  | 9563 | 200 | 5982 | 1573 | 119 | text/html; charset=UTF-8 |  |
+  | logout | http://10.10.180.155:12340/rms/logout.php |  | 11077 | 200 | 1551 | 128 | 39 | text/html; charset=UTF-8 |  |
+  | ratings | http://10.10.180.155:12340/rms/ratings.php | access-denied.php | 14966 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | tables | http://10.10.180.155:12340/rms/tables.php | access-denied.php | 17622 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  

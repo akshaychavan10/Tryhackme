@@ -1,0 +1,19 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-09-30 05:51 EDT
+Initiating Parallel DNS resolution of 1 host. at 05:51
+Completed Parallel DNS resolution of 1 host. at 05:51, 0.05s elapsed
+Initiating Connect Scan at 05:51
+Scanning 10.10.4.6 [8340 ports]
+Discovered open port 8080/tcp on 10.10.4.6
+Discovered open port 3389/tcp on 10.10.4.6
+Discovered open port 7680/tcp on 10.10.4.6
+Completed Connect Scan at 05:51, 45.03s elapsed (8340 total ports)
+Nmap scan report for 10.10.4.6
+Host is up (0.16s latency).
+Not shown: 8337 filtered ports
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+7680/tcp open  pando-pub
+8080/tcp open  http-proxy
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 45.18 seconds

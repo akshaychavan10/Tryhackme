@@ -1,0 +1,28 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-10-07 08:42 EDT
+Initiating Ping Scan at 08:42
+Scanning 10.10.44.112 [2 ports]
+Completed Ping Scan at 08:42, 0.20s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 08:42
+Completed Parallel DNS resolution of 1 host. at 08:42, 0.07s elapsed
+Initiating Connect Scan at 08:42
+Scanning 10.10.44.112 [8340 ports]
+Discovered open port 22/tcp on 10.10.44.112
+Discovered open port 80/tcp on 10.10.44.112
+Increasing send delay for 10.10.44.112 from 0 to 5 due to max_successful_tryno increase to 4
+Connect Scan Timing: About 11.37% done; ETC: 08:47 (0:04:02 remaining)
+Increasing send delay for 10.10.44.112 from 5 to 10 due to max_successful_tryno increase to 5
+Connect Scan Timing: About 25.96% done; ETC: 08:46 (0:02:54 remaining)
+Connect Scan Timing: About 37.86% done; ETC: 08:46 (0:02:29 remaining)
+Connect Scan Timing: About 51.23% done; ETC: 08:46 (0:01:55 remaining)
+Connect Scan Timing: About 64.42% done; ETC: 08:46 (0:01:23 remaining)
+Connect Scan Timing: About 77.38% done; ETC: 08:46 (0:00:53 remaining)
+Completed Connect Scan at 08:46, 225.27s elapsed (8340 total ports)
+Nmap scan report for 10.10.44.112
+Host is up (0.21s latency).
+Not shown: 8338 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 225.63 seconds

@@ -1,0 +1,17 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-10-07 08:46 EDT
+Nmap scan report for 10.10.44.112
+Host is up (0.23s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.6 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 58:64:6f:d1:53:22:a2:e2:3a:e4:84:d1:a6:7e:27:39 (RSA)
+|   256 d4:2c:89:70:f8:c7:8a:23:f5:0c:b7:35:93:cd:82:39 (ECDSA)
+|_  256 5a:b8:4d:07:f3:cc:ed:2d:5e:55:36:05:39:86:f9:51 (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Rick is sup4r cool
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 15.81 seconds

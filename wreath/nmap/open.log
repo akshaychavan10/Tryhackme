@@ -1,0 +1,37 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-10-20 10:23 EDT
+Initiating Ping Scan at 10:23
+Scanning 10.200.188.200 [2 ports]
+Completed Ping Scan at 10:23, 0.16s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 10:23
+Completed Parallel DNS resolution of 1 host. at 10:23, 0.04s elapsed
+Initiating Connect Scan at 10:23
+Scanning 10.200.188.200 [8340 ports]
+Discovered open port 80/tcp on 10.200.188.200
+Discovered open port 22/tcp on 10.200.188.200
+Discovered open port 443/tcp on 10.200.188.200
+Connect Scan Timing: About 4.74% done; ETC: 10:34 (0:10:23 remaining)
+Connect Scan Timing: About 9.96% done; ETC: 10:34 (0:09:11 remaining)
+Connect Scan Timing: About 16.24% done; ETC: 10:33 (0:07:50 remaining)
+Discovered open port 10000/tcp on 10.200.188.200
+Connect Scan Timing: About 22.87% done; ETC: 10:32 (0:06:48 remaining)
+Connect Scan Timing: About 29.51% done; ETC: 10:32 (0:06:01 remaining)
+Connect Scan Timing: About 37.67% done; ETC: 10:31 (0:05:00 remaining)
+Connect Scan Timing: About 45.11% done; ETC: 10:31 (0:04:17 remaining)
+Connect Scan Timing: About 53.75% done; ETC: 10:31 (0:03:27 remaining)
+Connect Scan Timing: About 62.09% done; ETC: 10:31 (0:02:45 remaining)
+Connect Scan Timing: About 71.47% done; ETC: 10:30 (0:02:00 remaining)
+Connect Scan Timing: About 82.01% done; ETC: 10:30 (0:01:13 remaining)
+Completed Connect Scan at 10:30, 390.15s elapsed (8340 total ports)
+Nmap scan report for 10.200.188.200
+Host is up (0.62s latency).
+Not shown: 8334 filtered ports
+PORT      STATE  SERVICE
+22/tcp    open   ssh
+80/tcp    open   http
+443/tcp   open   https
+9090/tcp  closed zeus-admin
+10000/tcp open   snet-sensor-mgmt
+33060/tcp closed mysqlx
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 390.44 seconds

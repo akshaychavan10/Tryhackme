@@ -1,0 +1,11 @@
+# FFUF Report
+
+  Command line : `ffuf -u http://10.10.180.155:12340/FUZZ -w /usr/share/wordlists/dirb/big.txt -of md -o dirscan/big -fc 404`
+  Time: 2021-10-23T11:50:19-04:00
+
+  | FUZZ | URL | Redirectlocation | Position | Status Code | Content Length | Content Words | Content Lines | Content Type | ResultFile |
+  | :- | :-- | :--------------- | :---- | :------- | :---------- | :------------- | :------------ | :--------- | :----------- |
+  | .htaccess | http://10.10.180.155:12340/.htaccess |  | 15 | 403 | 211 | 15 | 9 | text/html; charset=iso-8859-1 |  |
+  | .htpasswd | http://10.10.180.155:12340/.htpasswd |  | 16 | 403 | 211 | 15 | 9 | text/html; charset=iso-8859-1 |  |
+  | rms | http://10.10.180.155:12340/rms | http://10.10.180.155:12340/rms/ | 15526 | 301 | 239 | 14 | 8 | text/html; charset=iso-8859-1 |  |
+  

@@ -1,0 +1,18 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-10-23 11:09 EDT
+Initiating Parallel DNS resolution of 1 host. at 11:09
+Completed Parallel DNS resolution of 1 host. at 11:09, 0.30s elapsed
+Initiating Connect Scan at 11:09
+Scanning 10.10.180.155 [8340 ports]
+Discovered open port 22/tcp on 10.10.180.155
+Discovered open port 12340/tcp on 10.10.180.155
+Connect Scan Timing: About 26.07% done; ETC: 11:11 (0:01:28 remaining)
+Completed Connect Scan at 11:11, 71.31s elapsed (8340 total ports)
+Nmap scan report for 10.10.180.155
+Host is up (0.20s latency).
+Not shown: 8338 filtered ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+12340/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 71.72 seconds
