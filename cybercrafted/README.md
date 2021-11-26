@@ -92,3 +92,11 @@ jar nogui
 /opt/minecraft/cybercrafted/plugins/LoginSystem$ cat log.txt
 
 found cybercrafted password : JavaEdition>Bedrock
+
+
+
+sudo -l
+
+https://linuxize.com/post/how-to-use-linux-screen/
+
+ctrl+a+c get root
