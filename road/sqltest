@@ -1,0 +1,15 @@
+POST /v2/admin/reg.php HTTP/1.1
+Host: 10.10.121.226
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 95
+Origin: http://10.10.121.226
+Connection: close
+Referer: http://10.10.121.226/v2/admin/register.html?register=
+Cookie: PHPSESSID=7fet98dcdkpnmua5iufg0n69o4
+Upgrade-Insecure-Requests: 1
+
+ci_csrf_token=&User_Email=test%40thm.com&User_Pass=test&conpass=test&Us_Cont=9689585566&submit=
