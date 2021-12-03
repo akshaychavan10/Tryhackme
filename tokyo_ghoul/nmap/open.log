@@ -1,0 +1,21 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-01 13:36 EST
+Initiating Ping Scan at 13:36
+Scanning 10.10.25.46 [2 ports]
+Completed Ping Scan at 13:36, 0.41s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 13:36
+Completed Parallel DNS resolution of 1 host. at 13:36, 0.04s elapsed
+Initiating Connect Scan at 13:36
+Scanning 10.10.25.46 [8340 ports]
+Discovered open port 80/tcp on 10.10.25.46
+Discovered open port 21/tcp on 10.10.25.46
+Discovered open port 22/tcp on 10.10.25.46
+Increasing send delay for 10.10.25.46 from 0 to 5 due to max_successful_tryno increase to 4
+Increasing send delay for 10.10.25.46 from 5 to 10 due to max_successful_tryno increase to 5
+Connect Scan Timing: About 3.74% done; ETC: 13:49 (0:13:18 remaining)
+Connect Scan Timing: About 17.37% done; ETC: 13:41 (0:04:50 remaining)
+Increasing send delay for 10.10.25.46 from 10 to 20 due to max_successful_tryno increase to 6
+Connect Scan Timing: About 29.16% done; ETC: 13:41 (0:03:41 remaining)
+Connect Scan Timing: About 39.86% done; ETC: 13:41 (0:03:03 remaining)
+Connect Scan Timing: About 48.95% done; ETC: 13:41 (0:02:38 remaining)
+Connect Scan Timing: About 58.25% done; ETC: 13:41 (0:02:10 remaining)
+Connect Scan Timing: About 66.82% done; ETC: 13:41 (0:01:45 remaining)

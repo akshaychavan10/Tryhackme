@@ -1,5 +1,23 @@
 start with nmap scan
 
-ftp is open. found some files.
+21
+139
+22
+445
 
-smb is open.
+***
+
+ftp 
+
+- writeable
+
+files : clean.sh  removed_files.log  to_do.txt
+
+***
+
+smb 
+
+two images : corgo2.jpg  puppos.jpeg
+
+***
+
