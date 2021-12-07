@@ -1,0 +1,36 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-06 11:03 EST
+Initiating Ping Scan at 11:03
+Scanning 10.10.115.22 [2 ports]
+Completed Ping Scan at 11:03, 0.30s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 11:03
+Completed Parallel DNS resolution of 1 host. at 11:03, 0.00s elapsed
+Initiating Connect Scan at 11:03
+Scanning 10.10.115.22 [8340 ports]
+Discovered open port 80/tcp on 10.10.115.22
+Increasing send delay for 10.10.115.22 from 0 to 5 due to max_successful_tryno increase to 4
+Increasing send delay for 10.10.115.22 from 5 to 10 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.115.22 from 10 to 20 due to max_successful_tryno increase to 6
+Connect Scan Timing: About 11.21% done; ETC: 11:08 (0:04:06 remaining)
+Discovered open port 6001/tcp on 10.10.115.22
+Connect Scan Timing: About 24.95% done; ETC: 11:07 (0:03:04 remaining)
+Discovered open port 5901/tcp on 10.10.115.22
+Discovered open port 4012/tcp on 10.10.115.22
+Connect Scan Timing: About 36.31% done; ETC: 11:07 (0:02:40 remaining)
+Discovered open port 4019/tcp on 10.10.115.22
+Connect Scan Timing: About 48.51% done; ETC: 11:07 (0:02:08 remaining)
+Connect Scan Timing: About 62.09% done; ETC: 11:07 (0:01:32 remaining)
+Connect Scan Timing: About 74.00% done; ETC: 11:07 (0:01:04 remaining)
+Connect Scan Timing: About 85.31% done; ETC: 11:07 (0:00:36 remaining)
+Completed Connect Scan at 11:07, 253.31s elapsed (8340 total ports)
+Nmap scan report for 10.10.115.22
+Host is up (0.20s latency).
+Not shown: 8335 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+4012/tcp open  pda-gate
+4019/tcp open  talarian-mcast5
+5901/tcp open  vnc-1
+6001/tcp open  X11:1
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 253.75 seconds
