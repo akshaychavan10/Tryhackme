@@ -1,0 +1,35 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-07 08:21 EST
+Initiating Ping Scan at 08:21
+Scanning 10.10.12.152 [2 ports]
+Completed Ping Scan at 08:21, 0.16s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 08:21
+Completed Parallel DNS resolution of 1 host. at 08:21, 0.01s elapsed
+Initiating Connect Scan at 08:21
+Scanning 10.10.12.152 [8340 ports]
+Discovered open port 80/tcp on 10.10.12.152
+Discovered open port 22/tcp on 10.10.12.152
+Discovered open port 139/tcp on 10.10.12.152
+Discovered open port 445/tcp on 10.10.12.152
+Discovered open port 8080/tcp on 10.10.12.152
+Increasing send delay for 10.10.12.152 from 0 to 5 due to 29 out of 96 dropped probes since last increase.
+Connect Scan Timing: About 17.74% done; ETC: 08:24 (0:02:24 remaining)
+Increasing send delay for 10.10.12.152 from 5 to 10 due to max_successful_tryno increase to 4
+Connect Scan Timing: About 33.54% done; ETC: 08:24 (0:02:07 remaining)
+Increasing send delay for 10.10.12.152 from 10 to 20 due to max_successful_tryno increase to 5
+Connect Scan Timing: About 47.23% done; ETC: 08:24 (0:01:45 remaining)
+Connect Scan Timing: About 59.88% done; ETC: 08:24 (0:01:23 remaining)
+Connect Scan Timing: About 72.70% done; ETC: 08:25 (0:00:58 remaining)
+Connect Scan Timing: About 85.43% done; ETC: 08:25 (0:00:31 remaining)
+Completed Connect Scan at 08:25, 224.29s elapsed (8340 total ports)
+Nmap scan report for 10.10.12.152
+Host is up (0.17s latency).
+Not shown: 8335 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+8080/tcp open  http-proxy
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 224.58 seconds

