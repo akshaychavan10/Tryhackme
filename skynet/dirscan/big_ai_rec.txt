@@ -1,0 +1,11 @@
+# FFUF Report
+
+  Command line : `ffuf -u http://10.10.139.167/ai/FUZZ -w /usr/share/wordlists/dirb/big.txt -of md -o dirscan/big_ai_rec.txt`
+  Time: 2021-12-16T03:05:33-05:00
+
+  | FUZZ | URL | Redirectlocation | Position | Status Code | Content Length | Content Words | Content Lines | Content Type | ResultFile |
+  | :- | :-- | :--------------- | :---- | :------- | :---------- | :------------- | :------------ | :--------- | :----------- |
+  | .htpasswd | http://10.10.139.167/ai/.htpasswd |  | 16 | 403 | 278 | 20 | 10 | text/html; charset=iso-8859-1 |  |
+  | .htaccess | http://10.10.139.167/ai/.htaccess |  | 15 | 403 | 278 | 20 | 10 | text/html; charset=iso-8859-1 |  |
+  | notes | http://10.10.139.167/ai/notes | http://10.10.139.167/ai/notes/ | 12762 | 301 | 317 | 20 | 10 | text/html; charset=iso-8859-1 |  |
+  

@@ -1,0 +1,24 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-15 09:01 EST
+Initiating Ping Scan at 09:01
+Scanning 10.10.236.58 [2 ports]
+Completed Ping Scan at 09:01, 0.17s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 09:01
+Completed Parallel DNS resolution of 1 host. at 09:01, 0.04s elapsed
+Initiating Connect Scan at 09:01
+Scanning 10.10.236.58 [65535 ports]
+Discovered open port 22/tcp on 10.10.236.58
+Discovered open port 80/tcp on 10.10.236.58
+Connect Scan Timing: About 9.13% done; ETC: 09:07 (0:05:09 remaining)
+Connect Scan Timing: About 13.03% done; ETC: 09:09 (0:06:54 remaining)
+Increasing send delay for 10.10.236.58 from 0 to 5 due to max_successful_tryno increase to 4
+Increasing send delay for 10.10.236.58 from 5 to 10 due to max_successful_tryno increase to 5
+Connect Scan Timing: About 5.70% done; ETC: 09:28 (0:25:21 remaining)
+Increasing send delay for 10.10.236.58 from 10 to 20 due to 11 out of 15 dropped probes since last increase.
+Increasing send delay for 10.10.236.58 from 20 to 40 due to 11 out of 18 dropped probes since last increase.
+Connect Scan Timing: About 5.76% done; ETC: 09:37 (0:33:16 remaining)
+Increasing send delay for 10.10.236.58 from 40 to 80 due to max_successful_tryno increase to 6
+Increasing send delay for 10.10.236.58 from 80 to 160 due to max_successful_tryno increase to 7
+Increasing send delay for 10.10.236.58 from 160 to 320 due to max_successful_tryno increase to 8
+Increasing send delay for 10.10.236.58 from 320 to 640 due to max_successful_tryno increase to 9
+Increasing send delay for 10.10.236.58 from 640 to 1000 due to max_successful_tryno increase to 10
+Connect Scan Timing: About 3.76% done; ETC: 10:09 (1:04:54 remaining)

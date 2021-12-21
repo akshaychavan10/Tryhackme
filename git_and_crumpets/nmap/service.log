@@ -1,0 +1,12 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-15 09:02 EST
+Nmap scan report for 10.10.236.58
+Host is up (0.15s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.0 (protocol 2.0)
+80/tcp open  http    nginx
+| http-title: 503 Service Temporarily Unavailable
+|_Requested resource was http://10.10.236.58/index.html
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 94.08 seconds

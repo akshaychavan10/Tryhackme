@@ -1,0 +1,35 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-18 10:02 EST
+Initiating Ping Scan at 10:02
+Scanning 10.10.150.61 [4 ports]
+Completed Ping Scan at 10:02, 0.25s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 10:02
+Completed Parallel DNS resolution of 1 host. at 10:02, 5.57s elapsed
+Initiating SYN Stealth Scan at 10:02
+Scanning 10.10.150.61 [65535 ports]
+Discovered open port 21/tcp on 10.10.150.61
+Discovered open port 80/tcp on 10.10.150.61
+Discovered open port 22/tcp on 10.10.150.61
+Increasing send delay for 10.10.150.61 from 0 to 5 due to 729 out of 2428 dropped probes since last increase.
+SYN Stealth Scan Timing: About 5.07% done; ETC: 10:12 (0:09:40 remaining)
+SYN Stealth Scan Timing: About 6.49% done; ETC: 10:18 (0:14:39 remaining)
+SYN Stealth Scan Timing: About 11.35% done; ETC: 10:17 (0:13:48 remaining)
+SYN Stealth Scan Timing: About 16.72% done; ETC: 10:17 (0:12:47 remaining)
+SYN Stealth Scan Timing: About 21.66% done; ETC: 10:17 (0:12:00 remaining)
+SYN Stealth Scan Timing: About 27.57% done; ETC: 10:17 (0:11:13 remaining)
+SYN Stealth Scan Timing: About 32.21% done; ETC: 10:17 (0:10:21 remaining)
+Increasing send delay for 10.10.150.61 from 5 to 10 due to max_successful_tryno increase to 4
+SYN Stealth Scan Timing: About 39.06% done; ETC: 10:20 (0:11:11 remaining)
+SYN Stealth Scan Timing: About 44.69% done; ETC: 10:20 (0:10:14 remaining)
+SYN Stealth Scan Timing: About 49.76% done; ETC: 10:20 (0:09:18 remaining)
+SYN Stealth Scan Timing: About 54.22% done; ETC: 10:20 (0:08:22 remaining)
+SYN Stealth Scan Timing: About 59.07% done; ETC: 10:20 (0:07:25 remaining)
+SYN Stealth Scan Timing: About 63.83% done; ETC: 10:20 (0:06:30 remaining)
+SYN Stealth Scan Timing: About 68.76% done; ETC: 10:20 (0:05:36 remaining)
+SYN Stealth Scan Timing: About 74.01% done; ETC: 10:20 (0:04:38 remaining)
+SYN Stealth Scan Timing: About 79.07% done; ETC: 10:20 (0:03:43 remaining)
+SYN Stealth Scan Timing: About 84.24% done; ETC: 10:20 (0:02:48 remaining)
+SYN Stealth Scan Timing: About 89.34% done; ETC: 10:20 (0:01:55 remaining)
+SYN Stealth Scan Timing: About 94.36% done; ETC: 10:20 (0:01:01 remaining)
+SYN Stealth Scan Timing: About 99.25% done; ETC: 13:48 (0:01:42 remaining)
+Stats: 3:46:13 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.36% done; ETC: 13:49 (0:01:28 remaining)

@@ -1,0 +1,91 @@
+# FFUF Report
+
+  Command line : `ffuf -u http://10.10.134.99/FUZZ -w /usr/share/wordlists/dirb/common.txt -of md -o dirscan/common.md`
+  Time: 2021-12-16T08:31:33-05:00
+
+  | FUZZ | URL | Redirectlocation | Position | Status Code | Content Length | Content Words | Content Lines | Content Type | ResultFile |
+  | :- | :-- | :--------------- | :---- | :------- | :---------- | :------------- | :------------ | :--------- | :----------- |
+  |  | http://10.10.134.99/ |  | 1 | 200 | 1176 | 205 | 28 | text/html; charset=UTF-8 |  |
+  | 02 | http://10.10.134.99/02 | / | 134 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 05 | http://10.10.134.99/05 | / | 137 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 04 | http://10.10.134.99/04 | / | 136 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 00 | http://10.10.134.99/00 | / | 132 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 01 | http://10.10.134.99/01 | / | 133 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 0 | http://10.10.134.99/0 | / | 131 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 06 | http://10.10.134.99/06 | / | 138 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 03 | http://10.10.134.99/03 | / | 135 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 07 | http://10.10.134.99/07 | / | 139 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 08 | http://10.10.134.99/08 | / | 140 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 09 | http://10.10.134.99/09 | / | 141 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 10 | http://10.10.134.99/10 | / | 143 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1 | http://10.10.134.99/1 | / | 142 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1000 | http://10.10.134.99/1000 | / | 145 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 100 | http://10.10.134.99/100 | / | 144 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1001 | http://10.10.134.99/1001 | / | 146 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 101 | http://10.10.134.99/101 | / | 147 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 11 | http://10.10.134.99/11 | / | 150 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 102 | http://10.10.134.99/102 | / | 148 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 12 | http://10.10.134.99/12 | / | 151 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 103 | http://10.10.134.99/103 | / | 149 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 13 | http://10.10.134.99/13 | / | 153 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 123 | http://10.10.134.99/123 | / | 152 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 15 | http://10.10.134.99/15 | / | 155 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 14 | http://10.10.134.99/14 | / | 154 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1990 | http://10.10.134.99/1990 | / | 156 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1991 | http://10.10.134.99/1991 | / | 157 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1992 | http://10.10.134.99/1992 | / | 158 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1993 | http://10.10.134.99/1993 | / | 159 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1994 | http://10.10.134.99/1994 | / | 160 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1995 | http://10.10.134.99/1995 | / | 161 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1997 | http://10.10.134.99/1997 | / | 163 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1996 | http://10.10.134.99/1996 | / | 162 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1998 | http://10.10.134.99/1998 | / | 164 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2 | http://10.10.134.99/2 | / | 167 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 20 | http://10.10.134.99/20 | / | 168 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 1999 | http://10.10.134.99/1999 | / | 165 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 200 | http://10.10.134.99/200 | / | 169 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2000 | http://10.10.134.99/2000 | / | 170 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2001 | http://10.10.134.99/2001 | / | 171 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2002 | http://10.10.134.99/2002 | / | 172 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2006 | http://10.10.134.99/2006 | / | 176 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2005 | http://10.10.134.99/2005 | / | 175 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2004 | http://10.10.134.99/2004 | / | 174 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2003 | http://10.10.134.99/2003 | / | 173 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2007 | http://10.10.134.99/2007 | / | 177 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2008 | http://10.10.134.99/2008 | / | 178 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2009 | http://10.10.134.99/2009 | / | 179 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2010 | http://10.10.134.99/2010 | / | 180 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2012 | http://10.10.134.99/2012 | / | 182 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2013 | http://10.10.134.99/2013 | / | 183 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2011 | http://10.10.134.99/2011 | / | 181 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2257 | http://10.10.134.99/2257 | / | 187 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 3 | http://10.10.134.99/3 | / | 192 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 25 | http://10.10.134.99/25 | / | 190 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 24 | http://10.10.134.99/24 | / | 189 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 23 | http://10.10.134.99/23 | / | 188 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 22 | http://10.10.134.99/22 | / | 186 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 21 | http://10.10.134.99/21 | / | 185 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 2014 | http://10.10.134.99/2014 | / | 184 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 30 | http://10.10.134.99/30 | / | 193 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 300 | http://10.10.134.99/300 | / | 194 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 32 | http://10.10.134.99/32 | / | 195 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 403 | http://10.10.134.99/403 | / | 201 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 4 | http://10.10.134.99/4 | / | 198 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 401 | http://10.10.134.99/401 | / | 200 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 400 | http://10.10.134.99/400 | / | 199 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 404 | http://10.10.134.99/404 | / | 202 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 42 | http://10.10.134.99/42 | / | 203 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 50 | http://10.10.134.99/50 | / | 205 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 51 | http://10.10.134.99/51 | / | 207 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 500 | http://10.10.134.99/500 | / | 206 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 5 | http://10.10.134.99/5 | / | 204 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 6 | http://10.10.134.99/6 | / | 208 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 64 | http://10.10.134.99/64 | / | 209 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 7 | http://10.10.134.99/7 | / | 210 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 8 | http://10.10.134.99/8 | / | 212 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 9 | http://10.10.134.99/9 | / | 213 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | 96 | http://10.10.134.99/96 | / | 214 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | login | http://10.10.134.99/login |  | 2347 | 200 | 1549 | 416 | 38 | text/html; charset=UTF-8 |  |
+  | logout | http://10.10.134.99/logout | / | 2362 | 302 | 0 | 1 | 1 | text/html; charset=UTF-8 |  |
+  | register | http://10.10.134.99/register |  | 3341 | 200 | 1774 | 475 | 40 | text/html; charset=UTF-8 |  |
+  

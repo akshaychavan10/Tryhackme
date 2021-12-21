@@ -1,0 +1,49 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-17 01:46 EST
+Initiating Ping Scan at 01:46
+Scanning 10.10.20.17 [2 ports]
+Stats: 0:00:00 elapsed; 0 hosts completed (0 up), 1 undergoing Ping Scan
+Ping Scan Timing: About 100.00% done; ETC: 01:46 (0:00:00 remaining)
+Completed Ping Scan at 01:46, 0.20s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 01:46
+Completed Parallel DNS resolution of 1 host. at 01:46, 0.04s elapsed
+Initiating Connect Scan at 01:46
+Scanning 10.10.20.17 [8340 ports]
+Discovered open port 22/tcp on 10.10.20.17
+Discovered open port 10860/tcp on 10.10.20.17
+Discovered open port 9823/tcp on 10.10.20.17
+Discovered open port 12080/tcp on 10.10.20.17
+Discovered open port 9888/tcp on 10.10.20.17
+Discovered open port 13140/tcp on 10.10.20.17
+Discovered open port 12955/tcp on 10.10.20.17
+Increasing send delay for 10.10.20.17 from 0 to 5 due to 44 out of 145 dropped probes since last increase.
+Discovered open port 9955/tcp on 10.10.20.17
+Discovered open port 10439/tcp on 10.10.20.17
+Discovered open port 11971/tcp on 10.10.20.17
+Discovered open port 10114/tcp on 10.10.20.17
+Discovered open port 9300/tcp on 10.10.20.17
+Discovered open port 11877/tcp on 10.10.20.17
+Discovered open port 12240/tcp on 10.10.20.17
+Discovered open port 12699/tcp on 10.10.20.17
+Discovered open port 13718/tcp on 10.10.20.17
+Discovered open port 12121/tcp on 10.10.20.17
+Discovered open port 10050/tcp on 10.10.20.17
+Discovered open port 12156/tcp on 10.10.20.17
+Discovered open port 9213/tcp on 10.10.20.17
+Discovered open port 9825/tcp on 10.10.20.17
+Discovered open port 9619/tcp on 10.10.20.17
+Discovered open port 9501/tcp on 10.10.20.17
+Discovered open port 9160/tcp on 10.10.20.17
+Discovered open port 12132/tcp on 10.10.20.17
+Discovered open port 9683/tcp on 10.10.20.17
+Discovered open port 10900/tcp on 10.10.20.17
+Discovered open port 10543/tcp on 10.10.20.17
+Discovered open port 11720/tcp on 10.10.20.17
+Discovered open port 9443/tcp on 10.10.20.17
+Discovered open port 13264/tcp on 10.10.20.17
+Discovered open port 9667/tcp on 10.10.20.17
+Discovered open port 12012/tcp on 10.10.20.17
+Discovered open port 13820/tcp on 10.10.20.17
+Discovered open port 9493/tcp on 10.10.20.17
+Discovered open port 9988/tcp on 10.10.20.17
+Discovered open port 9007/tcp on 10.10.20.17
+Discovered open port 11319/tcp on 10.10.20.17
