@@ -68,3 +68,27 @@ Benjamin_Blogger : $2a$12$kt5CWnj5xVShpoQo4AesFeXT.RQFGC.58aSf4Iada24f.RQp4uLEy
 
 
 ```
+
+***
+
+www-data@super-spam:/home/lucy_loser/.MessagesBackupToGalactic$ cat note.txt
+
+Note to self. General super spam mentioned that I should not make the same mistake again of re-using the same key for the XOR encryption of our messages to Alpha Solaris IV's headquarters, otherwise we could have some serious issues if our encrypted messages are compromised. I must keep reminding myself,do not re-use keys,I have done it 8 times already!.The most important messages we sent to the HQ were the first and eighth message.I hope they arrived safely.They are crucial to our end goal.
+
+```
+Port 4012                                                                                                             
+PermitRootLogin yes                                                                                                   
+ChallengeResponseAuthentication no                                                                                    
+UsePAM yes                                                                                                            
+  --> Some certificates were found (out limited):                                                                     
+/etc/pollinate/entropy.ubuntu.com.pem                                                                                 
+                                                                                                                      
+ --> /etc/hosts.allow file found, read the rules:   
+
+```
+
+```
+/var/www/html/concrete5/concrete/controllers/single_page/dashboard/sys
+tem/backup.php
+
+```

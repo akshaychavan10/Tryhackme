@@ -1,0 +1,42 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-22 10:45 EST
+Initiating Ping Scan at 10:45
+Scanning 10.10.71.171 [4 ports]
+Completed Ping Scan at 10:45, 0.21s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 10:45
+Completed Parallel DNS resolution of 1 host. at 10:45, 0.02s elapsed
+Initiating SYN Stealth Scan at 10:45
+Scanning 10.10.71.171 [65535 ports]
+Discovered open port 22/tcp on 10.10.71.171
+Discovered open port 445/tcp on 10.10.71.171
+Discovered open port 80/tcp on 10.10.71.171
+Discovered open port 139/tcp on 10.10.71.171
+Increasing send delay for 10.10.71.171 from 0 to 5 due to 601 out of 2002 dropped probes since last increase.
+SYN Stealth Scan Timing: About 4.23% done; ETC: 10:57 (0:11:42 remaining)
+SYN Stealth Scan Timing: About 6.85% done; ETC: 10:59 (0:13:49 remaining)
+SYN Stealth Scan Timing: About 13.16% done; ETC: 10:56 (0:10:01 remaining)
+SYN Stealth Scan Timing: About 18.44% done; ETC: 10:56 (0:08:55 remaining)
+SYN Stealth Scan Timing: About 25.25% done; ETC: 10:55 (0:07:27 remaining)
+SYN Stealth Scan Timing: About 31.92% done; ETC: 10:54 (0:06:26 remaining)
+SYN Stealth Scan Timing: About 38.07% done; ETC: 10:54 (0:05:43 remaining)
+SYN Stealth Scan Timing: About 43.63% done; ETC: 10:54 (0:05:11 remaining)
+SYN Stealth Scan Timing: About 50.71% done; ETC: 10:53 (0:04:23 remaining)
+SYN Stealth Scan Timing: About 58.18% done; ETC: 10:54 (0:03:56 remaining)
+SYN Stealth Scan Timing: About 64.24% done; ETC: 10:54 (0:03:19 remaining)
+SYN Stealth Scan Timing: About 69.84% done; ETC: 10:54 (0:02:48 remaining)
+SYN Stealth Scan Timing: About 75.82% done; ETC: 10:54 (0:02:13 remaining)
+SYN Stealth Scan Timing: About 82.20% done; ETC: 10:54 (0:01:37 remaining)
+SYN Stealth Scan Timing: About 87.41% done; ETC: 10:54 (0:01:09 remaining)
+SYN Stealth Scan Timing: About 92.72% done; ETC: 10:54 (0:00:40 remaining)
+Completed SYN Stealth Scan at 10:54, 558.52s elapsed (65535 total ports)
+Nmap scan report for 10.10.71.171
+Host is up (0.19s latency).
+Not shown: 65531 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 559.03 seconds
+           Raw packets sent: 67194 (2.957MB) | Rcvd: 92994 (8.872MB)

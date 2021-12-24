@@ -1,0 +1,12 @@
+# FFUF Report
+
+  Command line : `ffuf -u http://10.10.151.146/cgi-bin/FUZZ.cgi -w /usr/share/wordlists/dirb/common.txt -of md -o dirscan/cig_bin_with_cgi_extention`
+  Time: 2021-12-22T10:00:08-05:00
+
+  | FUZZ | URL | Redirectlocation | Position | Status Code | Content Length | Content Words | Content Lines | Content Type | ResultFile |
+  | :- | :-- | :--------------- | :---- | :------- | :---------- | :------------- | :------------ | :--------- | :----------- |
+  | .htpasswd | http://10.10.151.146/cgi-bin/.htpasswd.cgi |  | 13 | 403 | 301 | 21 | 11 | text/html; charset=iso-8859-1 |  |
+  | .htaccess | http://10.10.151.146/cgi-bin/.htaccess.cgi |  | 12 | 403 | 301 | 21 | 11 | text/html; charset=iso-8859-1 |  |
+  | .hta | http://10.10.151.146/cgi-bin/.hta.cgi |  | 11 | 403 | 296 | 21 | 11 | text/html; charset=iso-8859-1 |  |
+  | test | http://10.10.151.146/cgi-bin/test.cgi |  | 4008 | 200 | 13 | 2 | 2 | text/html |  |
+  
