@@ -61,3 +61,61 @@ WD - write data and add files
 
 ```
 
+## Authentication
+
+Authentication is a process for verifying the identity of a person
+
+**Local authentication**
+
+- Local authentication is done using the Local Security Authority (LSA).
+- LSA is a protected subsystem that keeps track of the security policies and the accounts that are on a computer system. 
+- It also maintains information about all aspects of local security on a computer.
+
+**Type of AD**
+1. On-Premise Active Directory (AD)
+2. Azure Active Directory (AAD)
+
+**Authentication on AD**
+
+*NTLM / NTLM 2*
+- NTLM uses a challenge-response sequence of messages between a client and a server system. 
+-  NTLM  provides authentication based on a challenge-response authentication scheme.
+-  It does not provide data integrity or data confidentiality protection for the authenticated network connection.
+
+![img](https://i.imgur.com/z7VT6PM.png)
+
+*LDAP / LDAPS*
+
+- The main difference between LDAP and LDAPS is that LDAPS support encryption and therefore the credentials are not sent in plain text across the network.
+-  Using LDAP/LDAPS the user's workstation sends the credentials using an API to the Domain Controller in order to validate them and be able to log in.
+
+![img](https://i.imgur.com/Vep5s0C.png)
+
+*KERBEROS*
+
+-  Kerberos uses symmetric-key cryptography and requires trusted third-party authorization to verify user identities.
+
+![img](https://i.imgur.com/nnsV5NM.png)
+
+**Authentication on Azure Active Directory**
+
+*SAML (Security Assertion Markup Language)*
+
+- It  is a type of Single Sign-On (SSO) standard. 
+- It defines a set of rules/protocols that allow users to access web applications with a single login. 
+- This is possible because those applications (referred to as “Service Providers”) all trust the systems that verify users’ identities
+
+*OAUTH 2.0*
+
+OAuth 2.0 is a standard that apps use to provide client applications with access.
+
+- The authorization server, which is the server that issues the access token.
+- The resource owner, normally your application's end-user, that grants permission to access the resource server with an access token.
+- The client, which is the application that requests the access token, and then passes it to the resource server.
+- The resource server, which accepts the access token and must verify that it is valid. In this case, this is your application.
+
+*OpenID Connect*
+
+- OpenID Connect is an authentication standard built on top of OAuth 2.0. 
+-  It adds an additional token called an ID token.
+- it uses simple JSON Web Tokens (JWT). 
