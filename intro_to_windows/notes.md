@@ -119,3 +119,63 @@ OAuth 2.0 is a standard that apps use to provide client applications with access
 - OpenID Connect is an authentication standard built on top of OAuth 2.0. 
 -  It adds an additional token called an ID token.
 - it uses simple JSON Web Tokens (JWT). 
+
+***
+
+## Utility tools
+
+### Computer Management
+
+- Task Scheduler - This is a tool that allows predefined actions to be automatically executed whenever a certain set of conditions is met(eg: you can set script to run specific time)
+
+- Event Viewer - The Event Viewer logs events that happen across the device (Ex: Successful & Failed login attempts, System Errors, etc). 
+
+- Shared Folders - Is a directory or a folder that can be shared across the network and can be accessed by multiple users.
+
+- Local users and computers - Using local users and computers we can create users, add them to different built-in groups, and they can be given different levels of access
+
+- Performance Monitor -Performance Monitor monitors the different activities across the device such as CPU usage, memory usage, etc.
+
+- Disk Management - Using Disk Management you can shrink, expand, create new partitions (drives) and format the partitions.
+
+- Services & Applications - It is possible to check the running services on the system and you have the ability to start, stop or restart them.
+
+
+### Local Security Policy
+
+Local Security Policy is a group of settings you can configure to strengthen the computer's security. You can set the minimum password length, the password complexity level, you can disable guest & local administrator accounts, and many more.
+
+### Disk Cleanup
+
+Using Disk Cleanup we can delete files that are no longer needed by the system and are just adding up to the computer disk space.
+
+### Registry Editor
+
+The Windows registry database stores many important operating system settings. (eg :  what should happen when double-clicking a particular file type or how wide the taskbar should be.)
+
+### Command-line tools
+
+**CMD** : CMD is the command-line interpreter for Microsoft Windows operating systems used to automate various system-related tasks using scripts and batch files. Users can interact with the OS directly using text-based commands.
+
+**Powershell** Powershell is mainly used by sysadmins to manage the network and domain they handle, as well as the computers and other devices that are part of it. PowerShell is a scripting language.
+
+***
+
+## Type of servers
+
+A server is a piece of hardware or software equipment that provides functionality for other softwares or devices.
+
+### types
+
+- Domain Controller
+- File server
+- Web server
+- FTP Server
+- Mail Server
+- Database Server
+- Proxy Server
+- Application Server
+
+***
+
+

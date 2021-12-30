@@ -1,0 +1,30 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-28 01:29 EST
+Initiating Ping Scan at 01:29
+Scanning 10.10.53.209 [4 ports]
+Completed Ping Scan at 01:29, 0.20s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 01:29
+Completed Parallel DNS resolution of 1 host. at 01:29, 0.03s elapsed
+Initiating SYN Stealth Scan at 01:29
+Scanning 10.10.53.209 [65535 ports]
+Discovered open port 21/tcp on 10.10.53.209
+Discovered open port 80/tcp on 10.10.53.209
+SYN Stealth Scan Timing: About 3.19% done; ETC: 01:46 (0:15:41 remaining)
+Discovered open port 10000/tcp on 10.10.53.209
+SYN Stealth Scan Timing: About 13.05% done; ETC: 01:46 (0:14:46 remaining)
+SYN Stealth Scan Timing: About 16.42% done; ETC: 01:46 (0:13:49 remaining)
+SYN Stealth Scan Timing: About 20.70% done; ETC: 01:45 (0:12:19 remaining)
+SYN Stealth Scan Timing: About 24.95% done; ETC: 01:45 (0:11:29 remaining)
+SYN Stealth Scan Timing: About 30.10% done; ETC: 01:45 (0:10:36 remaining)
+SYN Stealth Scan Timing: About 36.04% done; ETC: 01:45 (0:09:47 remaining)
+SYN Stealth Scan Timing: About 41.30% done; ETC: 01:45 (0:08:59 remaining)
+SYN Stealth Scan Timing: About 45.86% done; ETC: 01:44 (0:08:10 remaining)
+SYN Stealth Scan Timing: About 51.43% done; ETC: 01:45 (0:07:23 remaining)
+SYN Stealth Scan Timing: About 55.96% done; ETC: 01:44 (0:06:35 remaining)
+SYN Stealth Scan Timing: About 60.50% done; ETC: 01:44 (0:05:49 remaining)
+SYN Stealth Scan Timing: About 65.59% done; ETC: 01:44 (0:05:01 remaining)
+SYN Stealth Scan Timing: About 70.46% done; ETC: 01:44 (0:04:16 remaining)
+SYN Stealth Scan Timing: About 75.47% done; ETC: 01:44 (0:03:31 remaining)
+Discovered open port 55007/tcp on 10.10.53.209
+SYN Stealth Scan Timing: About 80.69% done; ETC: 01:44 (0:02:45 remaining)
+SYN Stealth Scan Timing: About 85.97% done; ETC: 01:44 (0:02:00 remaining)
+SYN Stealth Scan Timing: About 91.22% done; ETC: 01:44 (0:01:15 remaining)

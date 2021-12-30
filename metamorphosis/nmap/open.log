@@ -1,0 +1,56 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-12-27 04:06 EST
+Initiating Ping Scan at 04:06
+Scanning 10.10.94.172 [4 ports]
+Completed Ping Scan at 04:06, 0.21s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 04:06
+Completed Parallel DNS resolution of 1 host. at 04:06, 0.03s elapsed
+Initiating SYN Stealth Scan at 04:06
+Scanning 10.10.94.172 [65535 ports]
+Discovered open port 80/tcp on 10.10.94.172
+Discovered open port 22/tcp on 10.10.94.172
+Discovered open port 139/tcp on 10.10.94.172
+Discovered open port 445/tcp on 10.10.94.172
+Increasing send delay for 10.10.94.172 from 0 to 5 due to 693 out of 2308 dropped probes since last increase.
+SYN Stealth Scan Timing: About 4.80% done; ETC: 04:17 (0:10:14 remaining)
+SYN Stealth Scan Timing: About 5.96% done; ETC: 04:23 (0:16:03 remaining)
+SYN Stealth Scan Timing: About 12.22% done; ETC: 04:18 (0:10:54 remaining)
+Increasing send delay for 10.10.94.172 from 5 to 10 due to max_successful_tryno increase to 4
+SYN Stealth Scan Timing: About 19.46% done; ETC: 04:16 (0:08:21 remaining)
+SYN Stealth Scan Timing: About 23.06% done; ETC: 04:18 (0:08:54 remaining)
+SYN Stealth Scan Timing: About 39.51% done; ETC: 04:20 (0:08:18 remaining)
+SYN Stealth Scan Timing: About 44.83% done; ETC: 04:20 (0:07:35 remaining)
+SYN Stealth Scan Timing: About 49.73% done; ETC: 04:20 (0:06:54 remaining)
+Stats: 0:07:42 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 54.92% done; ETC: 04:20 (0:06:19 remaining)
+SYN Stealth Scan Timing: About 61.57% done; ETC: 04:21 (0:05:35 remaining)
+Discovered open port 873/tcp on 10.10.94.172
+SYN Stealth Scan Timing: About 66.98% done; ETC: 04:21 (0:04:50 remaining)
+SYN Stealth Scan Timing: About 73.12% done; ETC: 04:21 (0:04:06 remaining)
+SYN Stealth Scan Timing: About 79.14% done; ETC: 04:22 (0:03:19 remaining)
+Stats: 0:13:29 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 83.08% done; ETC: 04:22 (0:02:45 remaining)
+Stats: 0:13:29 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 83.11% done; ETC: 04:22 (0:02:45 remaining)
+Stats: 0:13:30 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 83.16% done; ETC: 04:22 (0:02:44 remaining)
+SYN Stealth Scan Timing: About 88.54% done; ETC: 04:22 (0:01:53 remaining)
+Stats: 0:15:14 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 92.43% done; ETC: 04:23 (0:01:15 remaining)
+Stats: 0:15:37 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 94.53% done; ETC: 04:23 (0:00:54 remaining)
+Stats: 0:16:54 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 99.99% done; ETC: 04:23 (0:00:00 remaining)
+Completed SYN Stealth Scan at 04:23, 1014.81s elapsed (65535 total ports)
+Nmap scan report for 10.10.94.172
+Host is up (0.16s latency).
+Not shown: 65530 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+873/tcp open  rsync
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 1015.35 seconds
+           Raw packets sent: 68948 (3.034MB) | Rcvd: 89166 (7.814MB)
