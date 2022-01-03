@@ -1,0 +1,48 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-03 03:24 EST
+Initiating Parallel DNS resolution of 1 host. at 03:24
+Completed Parallel DNS resolution of 1 host. at 03:24, 5.56s elapsed
+Initiating Connect Scan at 03:24
+Scanning 10.10.104.167 [8340 ports]
+Discovered open port 135/tcp on 10.10.104.167
+Discovered open port 53/tcp on 10.10.104.167
+Discovered open port 445/tcp on 10.10.104.167
+Discovered open port 80/tcp on 10.10.104.167
+Discovered open port 3389/tcp on 10.10.104.167
+Discovered open port 139/tcp on 10.10.104.167
+Increasing send delay for 10.10.104.167 from 0 to 5 due to 31 out of 101 dropped probes since last increase.
+Discovered open port 3268/tcp on 10.10.104.167
+Discovered open port 88/tcp on 10.10.104.167
+Discovered open port 636/tcp on 10.10.104.167
+Discovered open port 3269/tcp on 10.10.104.167
+Connect Scan Timing: About 24.49% done; ETC: 03:27 (0:01:36 remaining)
+Discovered open port 389/tcp on 10.10.104.167
+Discovered open port 47001/tcp on 10.10.104.167
+Connect Scan Timing: About 59.20% done; ETC: 03:26 (0:00:42 remaining)
+Discovered open port 464/tcp on 10.10.104.167
+Discovered open port 593/tcp on 10.10.104.167
+Discovered open port 5985/tcp on 10.10.104.167
+Discovered open port 9389/tcp on 10.10.104.167
+Completed Connect Scan at 03:26, 86.38s elapsed (8340 total ports)
+Nmap scan report for 10.10.104.167
+Host is up (0.18s latency).
+Not shown: 8324 closed ports
+PORT      STATE SERVICE
+53/tcp    open  domain
+80/tcp    open  http
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+3389/tcp  open  ms-wbt-server
+5985/tcp  open  wsman
+9389/tcp  open  adws
+47001/tcp open  winrm
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 92.02 seconds

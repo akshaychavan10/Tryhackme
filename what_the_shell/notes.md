@@ -21,7 +21,7 @@ blind : `nc target_ip port`
 
 *Stabilise shells 1*
 - first use Python to spawn a better featured bash shell
-`python -c 'import pty;pty.spawn("/binbash")'`
+`python -c 'import pty;pty.spawn("/bin/bash")'`
 
 - second get access to term cmd (eg : `clear`) 
 `export TERM=screen`
