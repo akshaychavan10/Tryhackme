@@ -1,0 +1,32 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-10 00:54 EST
+Initiating Parallel DNS resolution of 1 host. at 00:54
+Completed Parallel DNS resolution of 1 host. at 00:54, 0.05s elapsed
+Initiating Connect Scan at 00:54
+Scanning 10.10.230.26 [8340 ports]
+Discovered open port 22/tcp on 10.10.230.26
+Discovered open port 8080/tcp on 10.10.230.26
+Connect Scan Timing: About 4.46% done; ETC: 01:06 (0:11:04 remaining)
+Connect Scan Timing: About 9.60% done; ETC: 01:05 (0:09:35 remaining)
+Connect Scan Timing: About 15.92% done; ETC: 01:03 (0:08:01 remaining)
+Connect Scan Timing: About 22.30% done; ETC: 01:03 (0:07:02 remaining)
+Connect Scan Timing: About 29.06% done; ETC: 01:03 (0:06:09 remaining)
+Connect Scan Timing: About 36.25% done; ETC: 01:02 (0:05:18 remaining)
+Connect Scan Timing: About 44.38% done; ETC: 01:02 (0:04:24 remaining)
+Connect Scan Timing: About 53.02% done; ETC: 01:02 (0:03:34 remaining)
+Connect Scan Timing: About 61.36% done; ETC: 01:01 (0:02:51 remaining)
+Connect Scan Timing: About 70.01% done; ETC: 01:01 (0:02:09 remaining)
+Connect Scan Timing: About 79.75% done; ETC: 01:01 (0:01:24 remaining)
+Connect Scan Timing: About 88.97% done; ETC: 01:01 (0:00:45 remaining)
+Discovered open port 59201/tcp on 10.10.230.26
+Completed Connect Scan at 01:01, 402.09s elapsed (8340 total ports)
+Nmap scan report for 10.10.230.26
+Host is up (0.56s latency).
+Not shown: 8336 filtered ports
+PORT      STATE  SERVICE
+22/tcp    open   ssh
+8080/tcp  open   http-proxy
+9090/tcp  closed zeus-admin
+59201/tcp open   unknown
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 402.22 seconds
