@@ -1,0 +1,42 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2022-01-19 01:30 EST
+Initiating Ping Scan at 01:30
+Scanning 10.10.65.187 [2 ports]
+Completed Ping Scan at 01:30, 0.58s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 01:30
+Completed Parallel DNS resolution of 1 host. at 01:30, 0.03s elapsed
+Initiating Connect Scan at 01:30
+Scanning 10.10.65.187 [8340 ports]
+Discovered open port 22/tcp on 10.10.65.187
+Discovered open port 8080/tcp on 10.10.65.187
+Discovered open port 111/tcp on 10.10.65.187
+Increasing send delay for 10.10.65.187 from 0 to 5 due to max_successful_tryno increase to 4
+Connect Scan Timing: About 4.38% done; ETC: 01:42 (0:11:17 remaining)
+Connect Scan Timing: About 11.77% done; ETC: 01:39 (0:07:37 remaining)
+Increasing send delay for 10.10.65.187 from 5 to 10 due to max_successful_tryno increase to 5
+Connect Scan Timing: About 18.16% done; ETC: 01:39 (0:06:50 remaining)
+Increasing send delay for 10.10.65.187 from 10 to 20 due to max_successful_tryno increase to 6
+Increasing send delay for 10.10.65.187 from 20 to 40 due to max_successful_tryno increase to 7
+Connect Scan Timing: About 25.26% done; ETC: 01:39 (0:06:25 remaining)
+Connect Scan Timing: About 33.07% done; ETC: 01:38 (0:05:24 remaining)
+Connect Scan Timing: About 41.78% done; ETC: 01:38 (0:04:25 remaining)
+Connect Scan Timing: About 49.50% done; ETC: 01:38 (0:03:44 remaining)
+Connect Scan Timing: About 55.99% done; ETC: 01:38 (0:03:19 remaining)
+Connect Scan Timing: About 63.62% done; ETC: 01:38 (0:02:42 remaining)
+Connect Scan Timing: About 71.28% done; ETC: 01:38 (0:02:06 remaining)
+Connect Scan Timing: About 76.80% done; ETC: 01:38 (0:01:44 remaining)
+Connect Scan Timing: About 85.34% done; ETC: 01:38 (0:01:04 remaining)
+Discovered open port 2049/tcp on 10.10.65.187
+Connect Scan Timing: About 91.82% done; ETC: 01:38 (0:00:36 remaining)
+Completed Connect Scan at 01:38, 437.08s elapsed (8340 total ports)
+Nmap scan report for 10.10.65.187
+Host is up (0.42s latency).
+Not shown: 8335 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+111/tcp  open     rpcbind
+2049/tcp open     nfs
+6316/tcp filtered abb-escp
+8080/tcp open     http-proxy
+
+Read data files from: /usr/bin/../share/nmap
+Nmap done: 1 IP address (1 host up) scanned in 437.77 seconds
